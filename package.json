@@ -6,7 +6,7 @@
   "author": "pramodrhegde <pramod.rh@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --watch",
     "start": "webpack-dev-server"
   },
   "dependencies": {
@@ -21,6 +21,7 @@
     "babel-preset-react": "^6.23.0",
     "css-loader": "^0.26.2",
     "http-server": "^0.9.0",
+    "image-webpack-loader": "^3.2.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.2",
     "style-loader": "^0.13.2",

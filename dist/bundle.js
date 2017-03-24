@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 31);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -565,6 +565,80 @@
 
 
 Object.defineProperty(exports, "__esModule", {
+      value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _preact = __webpack_require__(0);
+
+var _Navbar = __webpack_require__(6);
+
+var _Navbar2 = _interopRequireDefault(_Navbar);
+
+var _HeroSlider = __webpack_require__(4);
+
+var _HeroSlider2 = _interopRequireDefault(_HeroSlider);
+
+var _ProductsComponent = __webpack_require__(7);
+
+var _ProductsComponent2 = _interopRequireDefault(_ProductsComponent);
+
+var _BrandsComponent = __webpack_require__(2);
+
+var _BrandsComponent2 = _interopRequireDefault(_BrandsComponent);
+
+var _Footer = __webpack_require__(3);
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
+__webpack_require__(30);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var BuyBlue = function (_Component) {
+      _inherits(BuyBlue, _Component);
+
+      function BuyBlue() {
+            _classCallCheck(this, BuyBlue);
+
+            return _possibleConstructorReturn(this, (BuyBlue.__proto__ || Object.getPrototypeOf(BuyBlue)).apply(this, arguments));
+      }
+
+      _createClass(BuyBlue, [{
+            key: 'render',
+            value: function render() {
+                  return (0, _preact.h)(
+                        'div',
+                        { 'class': 'main-container' },
+                        (0, _preact.h)(_Navbar2.default, null),
+                        (0, _preact.h)(_HeroSlider2.default, null),
+                        (0, _preact.h)(_ProductsComponent2.default, null),
+                        (0, _preact.h)(_BrandsComponent2.default, null),
+                        (0, _preact.h)(_Footer2.default, null)
+                  );
+            }
+      }]);
+
+      return BuyBlue;
+}(_preact.Component);
+
+exports.default = BuyBlue;
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
@@ -578,35 +652,1354 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-/** @jsx h */
+var BrandsComponent = function (_Component) {
+  _inherits(BrandsComponent, _Component);
 
-var BuyBlue = function (_Component) {
-  _inherits(BuyBlue, _Component);
+  function BrandsComponent() {
+    _classCallCheck(this, BrandsComponent);
 
-  function BuyBlue(props) {
-    _classCallCheck(this, BuyBlue);
-
-    return _possibleConstructorReturn(this, (BuyBlue.__proto__ || Object.getPrototypeOf(BuyBlue)).call(this, props));
+    return _possibleConstructorReturn(this, (BrandsComponent.__proto__ || Object.getPrototypeOf(BrandsComponent)).apply(this, arguments));
   }
 
-  _createClass(BuyBlue, [{
+  _createClass(BrandsComponent, [{
     key: 'render',
     value: function render() {
       return (0, _preact.h)(
-        'p',
-        null,
-        'Hello from Preact'
+        'div',
+        { className: 'block' },
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)('img', { src: './assets/hanm.png', className: 'img-responsive', alt: 'brand-img' })
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)('img', { src: './assets/puma.png', className: 'img-responsive', alt: 'brand-img' })
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)('img', { src: './assets/adidas.png', className: 'img-responsive', alt: 'brand-img' })
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)('img', { src: './assets/converse.png', className: 'img-responsive', alt: 'brand-img' })
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)('img', { src: './assets/boss.png', className: 'img-responsive', alt: 'brand-img' })
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)('img', { src: './assets/nike.png', className: 'img-responsive', alt: 'brand-img' })
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)('img', { src: './assets/logo.png', className: 'img-responsive', alt: 'brand-img' })
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'brand-card' },
+          (0, _preact.h)(
+            'span',
+            null,
+            '274'
+          ),
+          (0, _preact.h)(
+            'p',
+            null,
+            'All brands'
+          )
+        )
       );
     }
   }]);
 
-  return BuyBlue;
+  return BrandsComponent;
 }(_preact.Component);
 
-exports.default = BuyBlue;
+exports.default = BrandsComponent;
 
 /***/ }),
-/* 2 */
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _preact = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Footer = function (_Component) {
+  _inherits(Footer, _Component);
+
+  function Footer() {
+    _classCallCheck(this, Footer);
+
+    return _possibleConstructorReturn(this, (Footer.__proto__ || Object.getPrototypeOf(Footer)).apply(this, arguments));
+  }
+
+  _createClass(Footer, [{
+    key: 'render',
+    value: function render() {
+      return (0, _preact.h)(
+        'footer',
+        null,
+        (0, _preact.h)(
+          'div',
+          { className: 'block' },
+          (0, _preact.h)(
+            'section',
+            { className: 'categories' },
+            (0, _preact.h)(
+              'ul',
+              null,
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Men'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Women'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Kids'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Accessories'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Sale'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Lookbook'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'Blog'
+                )
+              )
+            )
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'div',
+              { className: 'copyrights text-center' },
+              (0, _preact.h)(
+                'h1',
+                null,
+                'BuyBlue'
+              ),
+              (0, _preact.h)(
+                'p',
+                null,
+                '2015 All Rights Reserved.'
+              )
+            ),
+            (0, _preact.h)(
+              'div',
+              { className: 'signup text-center' },
+              (0, _preact.h)(
+                'div',
+                { className: 'input-group' },
+                (0, _preact.h)('input', { type: 'text',
+                  placeholder: 'Sign up for style news' }),
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);' },
+                  'go'
+                )
+              ),
+              (0, _preact.h)(
+                'ul',
+                null,
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Privacy & Cookies'
+                  )
+                ),
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Terms & Conditions'
+                  )
+                ),
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)(
+                    'a',
+                    { href: 'javascript:void(0);' },
+                    'Accessibility'
+                  )
+                )
+              )
+            ),
+            (0, _preact.h)(
+              'div',
+              { className: 'associations text-center' },
+              (0, _preact.h)(
+                'ul',
+                { className: 'social' },
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'twitter' })
+                ),
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'instagram' })
+                ),
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'pinterest' })
+                ),
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'facebook' })
+                )
+              ),
+              (0, _preact.h)(
+                'ul',
+                { className: 'payments' },
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'visa' })
+                ),
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'mastercard' })
+                ),
+                (0, _preact.h)(
+                  'li',
+                  null,
+                  (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'paypal' })
+                )
+              )
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return Footer;
+}(_preact.Component);
+
+exports.default = Footer;
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _preact = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var HeroSlider = function (_Component) {
+  _inherits(HeroSlider, _Component);
+
+  function HeroSlider() {
+    _classCallCheck(this, HeroSlider);
+
+    return _possibleConstructorReturn(this, (HeroSlider.__proto__ || Object.getPrototypeOf(HeroSlider)).apply(this, arguments));
+  }
+
+  _createClass(HeroSlider, [{
+    key: 'render',
+    value: function render() {
+      return (0, _preact.h)(
+        'section',
+        { className: 'hero-section' },
+        (0, _preact.h)(
+          'div',
+          { className: 'block' },
+          (0, _preact.h)(
+            'div',
+            { className: 'active-slide' },
+            (0, _preact.h)('img', { src: '', className: 'img-responsive', alt: 'slider-img' })
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'slides-container' },
+            (0, _preact.h)(
+              'div',
+              { className: 'siderbar-item' },
+              (0, _preact.h)('img', { src: '', className: 'img-responsive', alt: 'sidebar-img' })
+            ),
+            (0, _preact.h)(
+              'div',
+              { className: 'siderbar-item' },
+              (0, _preact.h)('img', { src: '', className: 'img-responsive', alt: 'sidebar-img' })
+            ),
+            (0, _preact.h)(
+              'div',
+              { className: 'siderbar-item' },
+              (0, _preact.h)('img', { src: '', className: 'img-responsive', alt: 'sidebar-img' })
+            ),
+            (0, _preact.h)(
+              'div',
+              { className: 'siderbar-item' },
+              (0, _preact.h)('img', { src: '', className: 'img-responsive', alt: 'sidebar-img' })
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return HeroSlider;
+}(_preact.Component);
+
+exports.default = HeroSlider;
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _preact = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Logo = function (_Component) {
+  _inherits(Logo, _Component);
+
+  function Logo() {
+    _classCallCheck(this, Logo);
+
+    return _possibleConstructorReturn(this, (Logo.__proto__ || Object.getPrototypeOf(Logo)).apply(this, arguments));
+  }
+
+  _createClass(Logo, [{
+    key: 'render',
+    value: function render() {
+      return (0, _preact.h)(
+        'h1',
+        { id: 'logo' },
+        (0, _preact.h)(
+          'a',
+          { href: '/' },
+          'BuyBlue'
+        )
+      );
+    }
+  }]);
+
+  return Logo;
+}(_preact.Component);
+
+exports.default = Logo;
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _preact = __webpack_require__(0);
+
+var _Logo = __webpack_require__(5);
+
+var _Logo2 = _interopRequireDefault(_Logo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Navbar = function (_Component) {
+  _inherits(Navbar, _Component);
+
+  function Navbar(props) {
+    _classCallCheck(this, Navbar);
+
+    var _this = _possibleConstructorReturn(this, (Navbar.__proto__ || Object.getPrototypeOf(Navbar)).call(this, props));
+
+    _this.state = {
+      currentNav: null
+    };
+    return _this;
+  }
+
+  _createClass(Navbar, [{
+    key: 'handleNav',
+    value: function handleNav(event) {
+      this.setState({
+        currentNav: event.target.id
+      });
+    }
+  }, {
+    key: 'handleSidebarBtn',
+    value: function handleSidebarBtn() {
+      this.setState({
+        isSidebarOpen: !this.state.isSidebarOpen
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return (0, _preact.h)(
+        'header',
+        null,
+        (0, _preact.h)(
+          'div',
+          { className: 'block header-container' },
+          (0, _preact.h)('a', { href: 'javascript:void(0);',
+            className: this.state.isSidebarOpen ? 'crumb open' : 'crumb close',
+            onClick: this.handleSidebarBtn.bind(this) }),
+          (0, _preact.h)(_Logo2.default, null),
+          (0, _preact.h)(
+            'nav',
+            null,
+            (0, _preact.h)(
+              'ul',
+              null,
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);', onClick: this.handleNav.bind(this), id: 'men' },
+                  'Men'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);', onClick: this.handleNav.bind(this), id: 'women' },
+                  'Women'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);', onClick: this.handleNav.bind(this), id: 'kids' },
+                  'Kids'
+                )
+              ),
+              (0, _preact.h)(
+                'li',
+                null,
+                (0, _preact.h)(
+                  'a',
+                  { href: 'javascript:void(0);', onClick: this.handleNav.bind(this), id: 'others' },
+                  'Accessories'
+                )
+              )
+            )
+          ),
+          (0, _preact.h)(
+            'ul',
+            { className: 'icons' },
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'bag' })
+            ),
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'user' })
+            ),
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'search' })
+            )
+          )
+        ),
+        this.state.currentNav ? (0, _preact.h)(
+          'div',
+          { className: 'jumbo-nav' },
+          (0, _preact.h)(
+            'ul',
+            { className: 'block' },
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)(
+                'a',
+                null,
+                'Main'
+              )
+            ),
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)(
+                'a',
+                null,
+                'Main'
+              )
+            ),
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)(
+                'a',
+                null,
+                'Main'
+              )
+            )
+          )
+        ) : null,
+        this.state.isSidebarOpen ? (0, _preact.h)(
+          'div',
+          { className: 'sidebar' },
+          (0, _preact.h)(
+            'ul',
+            { className: 'block' },
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)(
+                'a',
+                null,
+                'Main'
+              )
+            ),
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)(
+                'a',
+                null,
+                'Main'
+              )
+            ),
+            (0, _preact.h)(
+              'li',
+              null,
+              (0, _preact.h)(
+                'a',
+                null,
+                'Main'
+              )
+            )
+          )
+        ) : null
+      );
+    }
+  }]);
+
+  return Navbar;
+}(_preact.Component);
+
+exports.default = Navbar;
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _preact = __webpack_require__(0);
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ProductsComponent = function (_Component) {
+  _inherits(ProductsComponent, _Component);
+
+  function ProductsComponent() {
+    _classCallCheck(this, ProductsComponent);
+
+    return _possibleConstructorReturn(this, (ProductsComponent.__proto__ || Object.getPrototypeOf(ProductsComponent)).apply(this, arguments));
+  }
+
+  _createClass(ProductsComponent, [{
+    key: 'render',
+    value: function render() {
+      return (0, _preact.h)(
+        'div',
+        { className: 'block' },
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card non-product text-center' },
+          (0, _preact.h)('span', null),
+          (0, _preact.h)(
+            'h1',
+            null,
+            'Featured products'
+          ),
+          (0, _preact.h)(
+            'p',
+            null,
+            'the best of our store'
+          )
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card text-center' },
+          (0, _preact.h)(
+            'h1',
+            null,
+            'H&M Chino Shorts'
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'product-img' },
+            (0, _preact.h)('img', { src: './assets/hmprod.png', className: 'img-responsive', alt: 'H&M Chino Shorts-img' })
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'span',
+              { className: 'tag yellow' },
+              'hit'
+            ),
+            (0, _preact.h)(
+              'span',
+              { className: 'price' },
+              '$12'
+            )
+          )
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card text-center' },
+          (0, _preact.h)(
+            'h1',
+            null,
+            'Bobbies Elegant Leather Driving Shoes'
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'product-img' },
+            (0, _preact.h)('img', { src: './assets/image3xl.png', className: 'img-responsive', alt: 'Bobbies Elegant Leather Driving Shoes-img' })
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'span',
+              { className: 'price' },
+              '$140'
+            )
+          )
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card text-center' },
+          (0, _preact.h)(
+            'h1',
+            null,
+            'Fiorelli Rita Striped Tote Bag'
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'product-img' },
+            (0, _preact.h)('img', { src: './assets/image1xxl-(1).png', className: 'img-responsive', alt: '>Fiorelli Rita Striped Tote Bag-img' })
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'span',
+              { className: 'tag red' },
+              'sale'
+            ),
+            (0, _preact.h)(
+              'span',
+              { className: 'price' },
+              '$170'
+            ),
+            (0, _preact.h)(
+              'span',
+              { className: 'price slashed' },
+              '$180'
+            )
+          )
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card text-center' },
+          (0, _preact.h)(
+            'h1',
+            null,
+            'H&M Polo Shirt'
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'product-img' },
+            (0, _preact.h)('img', { src: './assets/hmprod-(1).png', className: 'img-responsive', alt: 'H&M Polo Shirt-img' })
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'span',
+              { className: 'price' },
+              '$9.95'
+            )
+          )
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card text-center' },
+          (0, _preact.h)(
+            'h1',
+            null,
+            'ASOS Skinny Band Felt Floppy Hat'
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'product-img' },
+            (0, _preact.h)('img', { src: './assets/image2xl.png', className: 'img-responsive', alt: 'ASOS Skinny Band Felt Floppy Hat-img' })
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'span',
+              { className: 'price' },
+              '$24'
+            )
+          )
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card text-center' },
+          (0, _preact.h)(
+            'h1',
+            null,
+            'Ted Baker Leather Messenger Bag'
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'product-img' },
+            (0, _preact.h)('img', { src: './assets/image1xl.png', className: 'img-responsive', alt: 'Ted Baker Leather Messenger Bag-img' })
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'span',
+              { className: 'tag green' },
+              'new'
+            ),
+            (0, _preact.h)(
+              'span',
+              { className: 'price' },
+              '$344'
+            )
+          )
+        ),
+        (0, _preact.h)(
+          'div',
+          { className: 'product-card text-center' },
+          (0, _preact.h)(
+            'h1',
+            null,
+            'H&M Canvas Parka'
+          ),
+          (0, _preact.h)(
+            'div',
+            { className: 'product-img' },
+            (0, _preact.h)('img', { src: './assets/hmprod-(3).png', className: 'img-responsive', alt: 'H&M Canvas Parka-img' })
+          ),
+          (0, _preact.h)(
+            'section',
+            null,
+            (0, _preact.h)(
+              'span',
+              { className: 'price' },
+              '$69'
+            )
+          )
+        )
+      );
+    }
+  }]);
+
+  return ProductsComponent;
+}(_preact.Component);
+
+exports.default = ProductsComponent;
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(9)();
+// imports
+
+
+// module
+exports.push([module.i, "* {\n  box-sizing: border-box; }\n\nhtml, body {\n  height: 100%; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  font: normal 16px/1.5 'Varela Round', sans-serif;\n  color: #222222; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\n.main-container {\n  min-height: 100%; }\n\n/* nav styles */\nheader {\n  background: #ffffff;\n  height: 80px;\n  border-bottom: 1px solid #eeeeee;\n  position: relative;\n  z-index: 2; }\n  header .header-container {\n    height: inherit;\n    align-items: center;\n    padding: 0 15px; }\n  header .crumb {\n    display: inline-block;\n    width: 24px;\n    height: 24px;\n    margin-right: 15px; }\n    header .crumb.open {\n      background: transparent url(" + __webpack_require__(32) + ") center center no-repeat;\n      background-size: contain; }\n    header .crumb.close {\n      background: transparent url(" + __webpack_require__(18) + ") center center no-repeat;\n      background-size: contain; }\n  header .sidebar {\n    position: fixed;\n    top: 80px;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    background: #fafafa;\n    z-index: 1;\n    overflow: hidden; }\n  header nav {\n    display: flex;\n    flex-grow: 1;\n    margin-left: 15px; }\n    header nav a {\n      font-size: 14px;\n      display: inline-block;\n      text-decoration: none;\n      color: #222222;\n      margin: 0 15px;\n      position: relative; }\n      header nav a:after {\n        content: '';\n        display: inline-block;\n        width: 8px;\n        height: 8px;\n        background: transparent url(" + __webpack_require__(11) + ") center center no-repeat;\n        background-size: contain;\n        transform: rotate(180deg);\n        position: absolute;\n        top: 7px;\n        right: -15px; }\n  header .jumbo-nav {\n    position: absolute;\n    left: 0;\n    right: 0;\n    top: 80px;\n    background: #fafafa; }\n  header .icons a {\n    display: inline-block;\n    text-decoration: none;\n    margin: 0 15px;\n    width: 20px;\n    height: 20px; }\n    header .icons a.bag {\n      background: transparent url(" + __webpack_require__(10) + ") center center no-repeat;\n      background-size: contain; }\n    header .icons a.user {\n      background: transparent url(" + __webpack_require__(26) + ") center center no-repeat;\n      background-size: contain; }\n    header .icons a.search {\n      background: transparent url(" + __webpack_require__(23) + ") center center no-repeat;\n      background-size: contain; }\n  header ul > li {\n    display: inline-block; }\n\n#logo {\n  margin: 0 25px;\n  font: bold 22px 'PT Serif', serif; }\n  #logo > a {\n    color: #1f4ba5;\n    text-decoration: none;\n    font-size: 24px; }\n\n/*hero section styles*/\n.hero-section {\n  background: #eeeeee;\n  height: 500px; }\n  .hero-section .active-slide {\n    flex: 1 100%;\n    background: #555; }\n  .hero-section .slides-container {\n    display: none; }\n  @media screen and (min-width: 768px) {\n    .hero-section .active-slide {\n      flex: 0 0 80%;\n      height: 500px; }\n    .hero-section .slides-container {\n      display: block;\n      flex: 1 0 20%; }\n      .hero-section .slides-container .siderbar-item {\n        height: 125px;\n        background: #666; } }\n\n/*products section styles*/\n.product-card {\n  display: flex;\n  min-height: 300px;\n  flex: 0 0 50%;\n  flex-flow: column wrap;\n  justify-content: space-between;\n  border: 1px solid #eeeeee;\n  padding: 25px 25px; }\n  @media screen and (min-width: 768px) {\n    .product-card {\n      flex: 0 0 33.33%; } }\n  @media screen and (min-width: 992px) {\n    .product-card {\n      flex: 0 0 25%; } }\n  .product-card h1 {\n    flex-grow: 1;\n    font-size: 16px;\n    margin: 0; }\n  .product-card h1, .product-card section {\n    flex-grow: 1; }\n  .product-card .product-img {\n    flex-grow: 4;\n    display: flex;\n    align-items: center; }\n    .product-card .product-img img {\n      height: 120px;\n      margin: 0 auto; }\n  .product-card .tag, .product-card .price {\n    font-family: 'Oswald', sans-serif;\n    font-weight: bold; }\n  .product-card .tag {\n    display: inline-block;\n    padding: 2px 15px;\n    border-radius: 3px;\n    position: relative;\n    background: #eeeeee; }\n    .product-card .tag:after {\n      content: '';\n      display: inline-block;\n      width: 10px;\n      height: 10px;\n      transform: rotateX(45deg);\n      position: absolute;\n      right: 5px;\n      top: 0;\n      background: #eeeeee; }\n\n/*brand section styles*/\n.brand-card {\n  display: flex;\n  height: 120px;\n  flex: 0 0 50%;\n  justify-content: flex-start;\n  align-items: center;\n  border: 1px solid #eeeeee; }\n  @media screen and (min-width: 768px) {\n    .brand-card {\n      flex: 0 0 25%; } }\n  @media screen and (min-width: 992px) {\n    .brand-card {\n      flex: 0 0 12.5%; } }\n  .brand-card img {\n    width: 60px;\n    margin: 0 auto; }\n\n/*footer styles*/\nfooter {\n  background: #222222;\n  color: #ffffff; }\n  footer section {\n    display: flex;\n    flex: 1 100%;\n    flex-flow: row wrap; }\n  footer .categories {\n    padding: 15px 0;\n    border-bottom: 1px solid #393939; }\n    footer .categories ul {\n      margin: 0 auto; }\n      footer .categories ul li > a {\n        text-decoration: none;\n        color: #dddddd;\n        font-size: 15px;\n        display: inline-block;\n        min-width: 120px;\n        padding: 0 15px;\n        position: relative;\n        text-align: center; }\n        footer .categories ul li > a:after {\n          content: '';\n          display: inline-block;\n          width: 5px;\n          height: 5px;\n          background: #393939;\n          border-radius: 50%;\n          position: absolute;\n          right: 0;\n          top: 11px; }\n  footer .copyrights, footer .signup, footer .associations {\n    flex: 0 0 100%;\n    padding: 15px 0; }\n  footer .copyrights {\n    order: 3;\n    font-family: 'PT Serif', serif;\n    color: #535353;\n    font-size: 14px;\n    border-right: 1px solid #393939; }\n    @media screen and (min-width: 768px) {\n      footer .copyrights {\n        order: 1;\n        flex: 0 0 25%; } }\n    footer .copyrights h1 {\n      margin: 0 5px;\n      font-size: 18px;\n      color: #dddddd; }\n  footer .signup {\n    order: 1;\n    border-right: 1px solid #393939; }\n    @media screen and (min-width: 768px) {\n      footer .signup {\n        flex: 0 0 50%;\n        order: 2; } }\n    footer .signup input[type='text'] {\n      width: 350px;\n      max-width: 90%;\n      height: 30px;\n      padding: 10px 15px;\n      background: #393939;\n      color: #dddddd;\n      border: 1px solid #393939;\n      border-radius: 15px;\n      font-family: 'PT Serif', serif; }\n    footer .signup ul li > a {\n      color: #868686;\n      text-decoration: none;\n      display: inline-block;\n      padding: 0 15px;\n      font-size: 12px; }\n  footer .associations {\n    order: 2; }\n    @media screen and (min-width: 768px) {\n      footer .associations {\n        order: 3;\n        flex: 0 0 25%; } }\n    footer .associations .social {\n      border-bottom: 1px solid #393939; }\n      footer .associations .social a {\n        display: inline-block;\n        margin: 0 12px;\n        width: 20px;\n        height: 20px; }\n        footer .associations .social a.facebook {\n          background: transparent url(" + __webpack_require__(13) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.facebook:hover {\n            background: transparent url(" + __webpack_require__(12) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.twitter {\n          background: transparent url(" + __webpack_require__(25) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.twitter:hover {\n            background: transparent url(" + __webpack_require__(24) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.instagram {\n          background: transparent url(" + __webpack_require__(15) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.instagram:hover {\n            background: transparent url(" + __webpack_require__(14) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.pinterest {\n          background: transparent url(" + __webpack_require__(22) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.pinterest:hover {\n            background: transparent url(" + __webpack_require__(21) + ") center center no-repeat;\n            background-size: contain; }\n    footer .associations .payments a {\n      display: inline-block;\n      margin: 0 5px;\n      width: 30px;\n      height: 30px; }\n      footer .associations .payments a.visa {\n        background: transparent url(" + __webpack_require__(28) + ") center center no-repeat;\n        background-size: contain; }\n        footer .associations .payments a.visa:hover {\n          background: transparent url(" + __webpack_require__(27) + ") center center no-repeat;\n          background-size: contain; }\n      footer .associations .payments a.paypal {\n        background: transparent url(" + __webpack_require__(20) + ") center center no-repeat;\n        background-size: contain; }\n        footer .associations .payments a.paypal:hover {\n          background: transparent url(" + __webpack_require__(19) + ") center center no-repeat;\n          background-size: contain; }\n      footer .associations .payments a.mastercard {\n        background: transparent url(" + __webpack_require__(17) + ") center center no-repeat;\n        background-size: contain; }\n        footer .associations .payments a.mastercard:hover {\n          background: transparent url(" + __webpack_require__(16) + ") center center no-repeat;\n          background-size: contain; }\n  footer ul > li {\n    display: inline-block; }\n\n/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function() {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		var result = [];
+		for(var i = 0; i < this.length; i++) {
+			var item = this[i];
+			if(item[2]) {
+				result.push("@media " + item[2] + "{" + item[1] + "}");
+			} else {
+				result.push(item[1]);
+			}
+		}
+		return result.join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "736344c523f7d42f461ec0bffdf323b7.png";
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "37a2396077b8e482432d50f8a73acd15.png";
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "4793d2d8fbc68fa4f77fba1225f4cf8d.png";
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "ccadeb74f8b0a6d691cd272dac6238cf.png";
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "736fee12fc3b6d440d580b65107acbff.png";
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "357de388228155434a9543bd546b0dfa.png";
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "0f15cd3369eb4e4233369dbc70e976e9.png";
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "e664e3fff88f17252f4fbd22f013cfef.png";
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f30925571c049db64736a579a01b913b.png";
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "d27be8c746e08e6bbd2ce4b5fb664c36.png";
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "4d91713d9a13e81275df41ff463f21ee.png";
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "a95679e8a4ccc0d49b311719e40fcd0b.png";
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bff25dee5761353d8b5127f256bf3f77.png";
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b9c62aaa9b2ba14d66b02616ba429146.png";
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bdb62347cade4663865ed7d8f61ac1b1.png";
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "be739bd8b4597309a4b9066018f4d27b.png";
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f66826c17d334c3134c6d30a54a6e42f.png";
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b8d56690ed0e868f3b25128b67e7622d.png";
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f6682c8d34c3b6a099fce0dbc2ab2528.png";
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+var stylesInDom = {},
+	memoize = function(fn) {
+		var memo;
+		return function () {
+			if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+			return memo;
+		};
+	},
+	isOldIE = memoize(function() {
+		return /msie [6-9]\b/.test(self.navigator.userAgent.toLowerCase());
+	}),
+	getHeadElement = memoize(function () {
+		return document.head || document.getElementsByTagName("head")[0];
+	}),
+	singletonElement = null,
+	singletonCounter = 0,
+	styleElementsInsertedAtTop = [];
+
+module.exports = function(list, options) {
+	if(typeof DEBUG !== "undefined" && DEBUG) {
+		if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (typeof options.singleton === "undefined") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the bottom of <head>.
+	if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
+
+	var styles = listToStyles(list);
+	addStylesToDom(styles, options);
+
+	return function update(newList) {
+		var mayRemove = [];
+		for(var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+		if(newList) {
+			var newStyles = listToStyles(newList);
+			addStylesToDom(newStyles, options);
+		}
+		for(var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+			if(domStyle.refs === 0) {
+				for(var j = 0; j < domStyle.parts.length; j++)
+					domStyle.parts[j]();
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+}
+
+function addStylesToDom(styles, options) {
+	for(var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+		if(domStyle) {
+			domStyle.refs++;
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles(list) {
+	var styles = [];
+	var newStyles = {};
+	for(var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+		if(!newStyles[id])
+			styles.push(newStyles[id] = {id: id, parts: [part]});
+		else
+			newStyles[id].parts.push(part);
+	}
+	return styles;
+}
+
+function insertStyleElement(options, styleElement) {
+	var head = getHeadElement();
+	var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
+	if (options.insertAt === "top") {
+		if(!lastStyleElementInsertedAtTop) {
+			head.insertBefore(styleElement, head.firstChild);
+		} else if(lastStyleElementInsertedAtTop.nextSibling) {
+			head.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			head.appendChild(styleElement);
+		}
+		styleElementsInsertedAtTop.push(styleElement);
+	} else if (options.insertAt === "bottom") {
+		head.appendChild(styleElement);
+	} else {
+		throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
+	}
+}
+
+function removeStyleElement(styleElement) {
+	styleElement.parentNode.removeChild(styleElement);
+	var idx = styleElementsInsertedAtTop.indexOf(styleElement);
+	if(idx >= 0) {
+		styleElementsInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement(options) {
+	var styleElement = document.createElement("style");
+	styleElement.type = "text/css";
+	insertStyleElement(options, styleElement);
+	return styleElement;
+}
+
+function createLinkElement(options) {
+	var linkElement = document.createElement("link");
+	linkElement.rel = "stylesheet";
+	insertStyleElement(options, linkElement);
+	return linkElement;
+}
+
+function addStyle(obj, options) {
+	var styleElement, update, remove;
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+		styleElement = singletonElement || (singletonElement = createStyleElement(options));
+		update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
+	} else if(obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function") {
+		styleElement = createLinkElement(options);
+		update = updateLink.bind(null, styleElement);
+		remove = function() {
+			removeStyleElement(styleElement);
+			if(styleElement.href)
+				URL.revokeObjectURL(styleElement.href);
+		};
+	} else {
+		styleElement = createStyleElement(options);
+		update = applyToTag.bind(null, styleElement);
+		remove = function() {
+			removeStyleElement(styleElement);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle(newObj) {
+		if(newObj) {
+			if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
+				return;
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag(styleElement, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = styleElement.childNodes;
+		if (childNodes[index]) styleElement.removeChild(childNodes[index]);
+		if (childNodes.length) {
+			styleElement.insertBefore(cssNode, childNodes[index]);
+		} else {
+			styleElement.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag(styleElement, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		styleElement.setAttribute("media", media)
+	}
+
+	if(styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = css;
+	} else {
+		while(styleElement.firstChild) {
+			styleElement.removeChild(styleElement.firstChild);
+		}
+		styleElement.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink(linkElement, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	if(sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = linkElement.href;
+
+	linkElement.href = URL.createObjectURL(blob);
+
+	if(oldSrc)
+		URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(8);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// add the styles to the DOM
+var update = __webpack_require__(29)(content, {});
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./BuyBlue.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./BuyBlue.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -621,6 +2014,12 @@ var _BuyBlue2 = _interopRequireDefault(_BuyBlue);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _preact.render)((0, _preact.h)(_BuyBlue2.default, null), document.getElementById('main'));
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "c8f54db5f3fa80a801bdbf8b5d4347e4.png";
 
 /***/ })
 /******/ ]);
