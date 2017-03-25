@@ -32,7 +32,7 @@ export default class Navbar extends Component {
 
         <Logo />
 
-        <nav>
+        <nav className='hidden-xs'>
           <ul>
             <li><a href='javascript:void(0);' onClick={this.handleNav.bind(this)} id='men'>Men</a></li>
             <li><a href='javascript:void(0);' onClick={this.handleNav.bind(this)} id='women'>Women</a></li>
@@ -42,6 +42,8 @@ export default class Navbar extends Component {
         </nav>
 
         <ul className='icons'>
+          <li className='visible-xs'><a href='javascript:void(0);' className='home'></a></li>
+          <li className='visible-xs'><a href='javascript:void(0);' className='category'></a></li>
           <li><a href='javascript:void(0);' className='bag' data-count='3'></a></li>
           <li><a href='javascript:void(0);' className='user'></a></li>
           <li><a href='javascript:void(0);' className='search'></a></li>

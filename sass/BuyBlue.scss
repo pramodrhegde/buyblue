@@ -100,12 +100,29 @@ header {
   }
 
   .icons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px 0;
+    background: #ffffff;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      position: static;
+      text-align: left;
+    }
+
     a {
       display: inline-block;
       text-decoration: none;
-      margin: 0 15px;
+      margin: 5px 20px 0;
       width: 20px;
       height: 20px;
+      @media screen and (min-width: 768px) {
+        margin: 5px 15px 0;
+      }
 
       &.bag {
         background: transparent url('../assets/bag.png') center center no-repeat;
@@ -135,6 +152,16 @@ header {
 
       &.search {
         background: transparent url('../assets/search.png') center center no-repeat;
+        background-size: contain;
+      }
+
+      &.home {
+        background: transparent url('../assets/home.png') center center no-repeat;
+        background-size: contain;
+      }
+
+      &.category {
+        background: transparent url('../assets/category.png') center center no-repeat;
         background-size: contain;
       }
     }
@@ -532,4 +559,15 @@ footer {
 .img-responsive {
   max-width: 100%;
   max-height: 100%;
+}
+.visible-xs {
+  display: none;
+}
+@media screen and (max-width: 420px) {
+  .hidden-xs {
+    display: none;
+  }
+  .visible-xs {
+    display: inline-block;
+  }
 }
