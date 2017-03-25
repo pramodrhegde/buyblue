@@ -1,4 +1,4 @@
-@import 'main.scss';
+@import 'common';
 
 /*footer styles*/
 footer {
@@ -43,6 +43,13 @@ footer {
             right: 0;
             top: 11px;
           }
+
+          &:hover {
+            color: lighten($footer-white, 10%);
+            &:after {
+              background: lighten($footer-black, 10%);
+            }
+          }
         }
       }
     }
@@ -76,7 +83,6 @@ footer {
 
   .signup {
     order: 1;
-    border-bottom: 1px solid $footer-black;
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -122,6 +128,7 @@ footer {
         padding-left: 40px;
         &:focus {
           outline: none;
+          background: lighten($footer-black, 3%);
         }
       }
       a {
@@ -148,6 +155,10 @@ footer {
         display: inline-block;
         padding: 0 15px;
         font-size: 12px;
+        transition: $bazier-curve;
+        &:hover {
+          color: lighten($body-color-lt, 10%);
+        }
       }
     }
 
@@ -177,7 +188,7 @@ footer {
         margin: 0 12px;
         width: 20px;
         height: 20px;
-
+        transition: $bazier-curve;
         &.facebook {
           background: transparent url('../assets/facebook.png') center center no-repeat;
           background-size: contain;
@@ -228,9 +239,9 @@ footer {
       a {
         display: inline-block;
         margin: 0 5px;
-        width: 30px;
-        height: 30px;
-
+        width: 50px;
+        height: 50px;
+        transition: $bazier-curve;
         &.visa {
           background: transparent url('../assets/visa.png') center center no-repeat;
           background-size: contain;

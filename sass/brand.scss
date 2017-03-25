@@ -1,4 +1,4 @@
-@import 'main.scss';
+@import 'common';
 
 /*brand section styles*/
 .brand-card {
@@ -11,6 +11,7 @@
   border-top: none;
   border-right: none;
   cursor: pointer;
+  transition: $bazier-curve;
   &:hover {
     box-shadow: 0 -1px 15px $background-grey;
   }
@@ -32,6 +33,7 @@
   }
 
   &.more {
+    transition: $bazier-curve;
     &:hover {
       box-shadow: none;
     }
@@ -57,6 +59,10 @@
       font-size: 18px;
       color: #1f4ba5;
       margin: 0 auto;
+      transition: $bazier-curve;
+      &:hover + span {
+        opacity: 0.15;
+      }
     }
   }
 }

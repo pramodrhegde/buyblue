@@ -1,4 +1,4 @@
-@import 'main.scss';
+@import 'common';
 
 /* nav styles */
 header {
@@ -86,7 +86,7 @@ header {
       color: $body-color;
       padding: 0 15px;
       position: relative;
-
+      transition: $bazier-curve;
       &:after {
         content: '';
         display: inline-block;
@@ -99,11 +99,14 @@ header {
         top: 7px;
         right: 0;
       }
+
+      &:hover {
+        color: $primary-color;
+      }
     }
   }
 
   .jumbo-nav {
-
     position: fixed;
     left: 0;
     right: 0;
@@ -111,6 +114,7 @@ header {
     top: 80px;
     background: $white;
     padding: 0 15px;
+    transition: $bazier-curve;
 
     @media screen and (min-width: 768px)  {
       position: absolute;
@@ -176,6 +180,7 @@ header {
     @media screen and (min-width: 768px) {
       position: static;
       text-align: left;
+      box-shadow: none;
     }
 
     a {

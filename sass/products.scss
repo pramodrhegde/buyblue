@@ -1,4 +1,4 @@
-@import 'main.scss';
+@import 'common';
 
 /*products section styles*/
 .product-card {
@@ -12,7 +12,7 @@
   border-top: none;
   border-right: none;
   cursor: pointer;
-
+  transition: $bazier-curve;
   &:hover {
     box-shadow: 0 5px 15px $background-grey;
   }
@@ -123,6 +123,7 @@
 
   &.non-product {
     cursor: auto;
+    transition: $bazier-curve;
     &:hover {
       box-shadow: none;
     }
