@@ -8,25 +8,25 @@ export default class HeroSlider extends Component {
       <div className='block'>
         <div className='active-slide'>
           <a href='javascript:void(0);' className='controls prev'></a>
-          <img src='../assets/img1.jpg' alt='slider-img'/>
+          <img src='http://res.cloudinary.com/prazor9/image/upload/v1490442716/img1_tlbgth.jpg' alt='slider-img'/>
           <a href='javascript:void(0);' className='controls next'></a>
         </div>
 
         <div className='slides-container'>
           <div className='siderbar-item active-slide'>
-            <img src='../assets/img1.jpg' alt='sidebar-img'/>
+            <img src='http://res.cloudinary.com/prazor9/image/upload/v1490442716/img1_tlbgth.jpg' alt='sidebar-img'/>
           </div>
 
           <div className='siderbar-item'>
-            <img src='../assets/img2.jpg' lt='sidebar-img'/>
+            <img src='http://res.cloudinary.com/prazor9/image/upload/v1490442716/img2_ykadsu.jpg' lt='sidebar-img'/>
           </div>
 
           <div className='siderbar-item'>
-            <img src='../assets/img3.jpg' alt='sidebar-img'/>
+            <img src='http://res.cloudinary.com/prazor9/image/upload/v1490442723/img3_obaexp.jpg' alt='sidebar-img'/>
           </div>
 
           <div className='siderbar-item'>
-            <img src='../assets/img4.jpg' alt='sidebar-img'/>
+            <img src='http://res.cloudinary.com/prazor9/image/upload/v1490442721/img4_t1ujba.jpg' alt='sidebar-img'/>
           </div>
         </div>
 

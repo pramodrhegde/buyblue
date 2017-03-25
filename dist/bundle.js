@@ -1312,7 +1312,7 @@ var HeroSlider = function (_Component) {
             'div',
             { className: 'active-slide' },
             (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'controls prev' }),
-            (0, _preact.h)('img', { src: '../assets/img1.jpg', alt: 'slider-img' }),
+            (0, _preact.h)('img', { src: 'http://res.cloudinary.com/prazor9/image/upload/v1490442716/img1_tlbgth.jpg', alt: 'slider-img' }),
             (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'controls next' })
           ),
           (0, _preact.h)(
@@ -1321,22 +1321,22 @@ var HeroSlider = function (_Component) {
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item active-slide' },
-              (0, _preact.h)('img', { src: '../assets/img1.jpg', alt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: 'http://res.cloudinary.com/prazor9/image/upload/v1490442716/img1_tlbgth.jpg', alt: 'sidebar-img' })
             ),
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item' },
-              (0, _preact.h)('img', { src: '../assets/img2.jpg', lt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: 'http://res.cloudinary.com/prazor9/image/upload/v1490442716/img2_ykadsu.jpg', lt: 'sidebar-img' })
             ),
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item' },
-              (0, _preact.h)('img', { src: '../assets/img3.jpg', alt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: 'http://res.cloudinary.com/prazor9/image/upload/v1490442723/img3_obaexp.jpg', alt: 'sidebar-img' })
             ),
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item' },
-              (0, _preact.h)('img', { src: '../assets/img4.jpg', alt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: 'http://res.cloudinary.com/prazor9/image/upload/v1490442721/img4_t1ujba.jpg', alt: 'sidebar-img' })
             )
           )
         )
