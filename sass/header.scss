@@ -20,10 +20,6 @@ header {
     height: 24px;
     margin-right: 15px;
 
-    &.open {
-      background: transparent url('../assets/close.png') center center no-repeat;
-      background-size: contain;
-    }
     &.close {
       background: transparent url('../assets/menu.png') center center no-repeat;
       background-size: contain;
@@ -32,13 +28,51 @@ header {
 
   .sidebar {
     position: fixed;
-    top: 80px;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     background: $white-variant;
-    z-index: 1;
+    z-index: 3;
     overflow: hidden;
+    background: $primary-color;
+    color: $white;
+    overflow: auto;
+
+    .block {
+      align-items: center;
+      padding: 0 15px;
+    }
+
+    h1{
+      font-family: $font-stack-ptserif;
+      text-align: center;
+      margin: 25px auto;
+    }
+
+    a.close {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background: transparent url('../assets/close.png') center center no-repeat;
+      background-size: contain;
+    }
+
+    ul.list{
+      width: 100%;
+      font-family: $font-stack-oswald;
+      font-size: 24px;
+      li {
+        display: block;
+        margin-bottom: 15px;
+      }
+      > li {
+        margin-bottom: 25px;
+      }
+      ul {
+        padding-left: 15px;
+      }
+    }
   }
 
   nav {
@@ -50,7 +84,7 @@ header {
       font-size: 14px;
       display: inline-block;
       color: $body-color;
-      margin: 0 15px;
+      padding: 0 15px;
       position: relative;
 
       &:after {
@@ -63,17 +97,69 @@ header {
         transform: rotate(180deg);
         position: absolute;
         top: 7px;
-        right: -15px;
+        right: 0;
       }
     }
   }
 
   .jumbo-nav {
-    position: absolute;
+
+    position: fixed;
     left: 0;
     right: 0;
+    bottom: 0;
     top: 80px;
-    background: $white-variant;
+    background: $white;
+    padding: 0 15px;
+
+    @media screen and (min-width: 768px)  {
+      position: absolute;
+      bottom: auto;
+    }
+
+    .mobile-category {
+      a {
+        font-family: $font-stack-oswald;
+        color: $primary-color;
+      }
+    }
+
+    .block {
+      flex-direction: row;
+
+      h2 {
+        width: 100%;
+        font-family: $font-stack-oswald;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: $primary-color;
+      }
+
+      > ul {
+        flex: 0 0 100%;
+        display: inline-block;
+        border-right: 1px solid $footer-white;
+        margin-right: 10px;
+        li {
+          display: block;
+          color: $body-color-md;
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+        > li {
+          color: $body-color;
+          font-size: 16px;
+          margin-bottom: 25px;
+        }
+        ul {
+          padding-left: 15px;
+          margin-top: 15px;
+        }
+        @media screen and (min-width: 768px) {
+          flex: 0 0 25%;
+        }
+      }
+    }
   }
 
   .icons {
@@ -85,7 +171,8 @@ header {
     padding: 10px 0;
     background: $white;
     text-align: center;
-
+    z-index: 2;
+    box-shadow: 0 -1px 2px $background-grey;
     @media screen and (min-width: 768px) {
       position: static;
       text-align: left;
