@@ -1312,7 +1312,7 @@ var HeroSlider = function (_Component) {
             'div',
             { className: 'active-slide' },
             (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'controls prev' }),
-            (0, _preact.h)('img', { src: '../assets/brooke-cagle-38255.jpg', alt: 'slider-img' }),
+            (0, _preact.h)('img', { src: '../assets/img1.jpg', alt: 'slider-img' }),
             (0, _preact.h)('a', { href: 'javascript:void(0);', className: 'controls next' })
           ),
           (0, _preact.h)(
@@ -1321,22 +1321,22 @@ var HeroSlider = function (_Component) {
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item active-slide' },
-              (0, _preact.h)('img', { src: '../assets/brooke-cagle-38255.jpg', alt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: '../assets/img1.jpg', alt: 'sidebar-img' })
             ),
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item' },
-              (0, _preact.h)('img', { src: '../assets/feet-1840619_1280.jpg', lt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: '../assets/img2.jpg', lt: 'sidebar-img' })
             ),
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item' },
-              (0, _preact.h)('img', { src: '../assets/toa-heftiba-134565-min.jpg', alt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: '../assets/img3.jpg', alt: 'sidebar-img' })
             ),
             (0, _preact.h)(
               'div',
               { className: 'siderbar-item' },
-              (0, _preact.h)('img', { src: '../assets/william-stitt-151784-min.jpg', alt: 'sidebar-img' })
+              (0, _preact.h)('img', { src: '../assets/img4.jpg', alt: 'sidebar-img' })
             )
           )
         )
