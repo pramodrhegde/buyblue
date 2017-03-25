@@ -42,7 +42,7 @@ export default class Navbar extends Component {
         </nav>
 
         <ul className='icons'>
-          <li><a href='javascript:void(0);' className='bag'></a></li>
+          <li><a href='javascript:void(0);' className='bag' data-count='3'></a></li>
           <li><a href='javascript:void(0);' className='user'></a></li>
           <li><a href='javascript:void(0);' className='search'></a></li>
         </ul>

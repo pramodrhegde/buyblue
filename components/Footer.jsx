@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return <footer>
       <div className='block'>
-        <section className='categories'>
+        <section className='categories text-center'>
           <ul>
             <li><a href='javascript:void(0);'>Men</a></li>
             <li><a href='javascript:void(0);'>Women</a></li>
@@ -26,7 +26,7 @@ export default class Footer extends Component {
             <div className='input-group'>
               <input type='text'
                     placeholder='Sign up for style news'/>
-              <a href='javascript:void(0);'>go</a>
+              <a href='javascript:void(0);'></a>
             </div>
 
             <ul>
