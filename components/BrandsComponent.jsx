@@ -1,5 +1,7 @@
 import { h, render, Component } from 'preact';
 
+import '../sass/brand.scss';
+
 export default class BrandsComponent extends Component {
   render() {
     return <div className='block'>

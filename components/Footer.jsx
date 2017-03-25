@@ -1,5 +1,7 @@
 import { h, render, Component } from 'preact';
 
+import '../sass/footer.scss';
+
 export default class Footer extends Component {
   render() {
     return <footer>
@@ -24,6 +26,7 @@ export default class Footer extends Component {
 
           <div className='signup text-center'>
             <div className='input-group'>
+              <span className='mail'></span>
               <input type='text'
                     placeholder='Sign up for style news'/>
               <a href='javascript:void(0);'></a>

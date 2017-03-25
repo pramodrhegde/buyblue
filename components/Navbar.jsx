@@ -1,6 +1,8 @@
 import { h, render, Component } from 'preact';
 import Logo from './Logo.jsx';
 
+import '../sass/header.scss';
+
 export default class Navbar extends Component {
 
   constructor(props) {

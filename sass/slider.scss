@@ -1,0 +1,29 @@
+@import 'main.scss';
+
+/*hero section styles*/
+.hero-section {
+  background: $background-grey;
+  height: 500px;
+
+  .active-slide {
+    flex: 1 100%;
+    background: $body-color-md;
+  }
+  .slides-container {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    .active-slide {
+      flex: 0 0 80%;
+      height: 500px;
+    }
+    .slides-container {
+      display: block;
+      flex: 1 0 20%;
+      .siderbar-item {
+        height: 125px;
+        background: $body-color-lt;
+      }
+    }
+  }
+}

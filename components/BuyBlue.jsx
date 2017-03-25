@@ -5,7 +5,7 @@ import ProductsComponent from './ProductsComponent.jsx';
 import BrandsComponent from './BrandsComponent.jsx';
 import Footer from './Footer.jsx';
 
-import '../sass/BuyBlue.scss';
+import '../sass/main.scss';
 
 export default class BuyBlue extends Component {
 

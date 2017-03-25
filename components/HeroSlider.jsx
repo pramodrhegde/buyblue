@@ -1,5 +1,7 @@
 import { h, render, Component } from 'preact';
 
+import '../sass/slider.scss';
+
 export default class HeroSlider extends Component {
   render() {
     return <section className='hero-section'>

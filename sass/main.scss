@@ -1,0 +1,80 @@
+$font-stack-varela:    'Varela Round', sans-serif;
+$font-stack-ptserif:    'PT Serif', serif;
+$font-stack-oswald:    'Oswald', sans-serif;
+
+$white: #FFFFFF;
+$white-variant: #FAFAFA;
+
+$background-grey: #EEEEEE;
+$primary-color: #1F4BA5;
+
+$body-color : #222222;
+$body-color-md: #535353;
+$body-color-lt: #868686;
+
+$footer-black: #393939;
+$footer-white: #DDDDDD;
+
+$red: #FF3F2B;
+$green: #68BF7B;
+$yellow: #FFC12B;
+
+$border-radius: 3px;
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 16px/1.5 $font-stack-varela;
+  color: $body-color;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+.main-container {
+  min-height: 100%;
+}
+
+/*block style*/
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-responsive {
+  max-width: 100%;
+  max-height: 100%;
+}
+.visible-xs {
+  display: none;
+}
+@media screen and (max-width: 420px) {
+  .hidden-xs {
+    display: none;
+  }
+  .visible-xs {
+    display: inline-block;
+  }
+}
