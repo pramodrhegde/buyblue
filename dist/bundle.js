@@ -869,6 +869,12 @@ function updateLink(linkElement, obj) {
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "37a2396077b8e482432d50f8a73acd15.png";
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -880,23 +886,23 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _preact = __webpack_require__(0);
 
-var _Navbar = __webpack_require__(8);
+var _Navbar = __webpack_require__(9);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
-var _HeroSlider = __webpack_require__(6);
+var _HeroSlider = __webpack_require__(7);
 
 var _HeroSlider2 = _interopRequireDefault(_HeroSlider);
 
-var _ProductsComponent = __webpack_require__(9);
+var _ProductsComponent = __webpack_require__(10);
 
 var _ProductsComponent2 = _interopRequireDefault(_ProductsComponent);
 
-var _BrandsComponent = __webpack_require__(4);
+var _BrandsComponent = __webpack_require__(5);
 
 var _BrandsComponent2 = _interopRequireDefault(_BrandsComponent);
 
-var _Footer = __webpack_require__(5);
+var _Footer = __webpack_require__(6);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -940,7 +946,7 @@ var BuyBlue = function (_Component) {
 exports.default = BuyBlue;
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1038,7 +1044,7 @@ var BrandsComponent = function (_Component) {
 exports.default = BrandsComponent;
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1268,7 +1274,7 @@ var Footer = function (_Component) {
 exports.default = Footer;
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1350,7 +1356,7 @@ var HeroSlider = function (_Component) {
 exports.default = HeroSlider;
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1400,7 +1406,7 @@ var Logo = function (_Component) {
 exports.default = Logo;
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1414,7 +1420,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _preact = __webpack_require__(0);
 
-var _Logo = __webpack_require__(7);
+var _Logo = __webpack_require__(8);
 
 var _Logo2 = _interopRequireDefault(_Logo);
 
@@ -1902,7 +1908,7 @@ var Navbar = function (_Component) {
 exports.default = Navbar;
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2145,20 +2151,6 @@ var ProductsComponent = function (_Component) {
 exports.default = ProductsComponent;
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(1)();
-// imports
-
-
-// module
-exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*brand section styles*/\n.brand-card {\n  display: flex;\n  height: 120px;\n  flex: 0 0 50%;\n  justify-content: flex-start;\n  align-items: center;\n  border: 1px solid #EEEEEE;\n  border-top: none;\n  border-right: none;\n  cursor: pointer;\n  transition: all 0.3s ease-in-out; }\n  .brand-card:hover {\n    box-shadow: 0 -1px 15px #EEEEEE; }\n  .brand-card:last-child {\n    border-right: 1px solid #EEEEEE; }\n  @media screen and (min-width: 768px) {\n    .brand-card {\n      flex: 0 0 25%; } }\n  @media screen and (min-width: 992px) {\n    .brand-card {\n      flex: 0 0 12.5%; } }\n  .brand-card img {\n    width: 60px;\n    margin: 0 auto; }\n  .brand-card.more {\n    transition: all 0.3s ease-in-out;\n    position: relative; }\n    .brand-card.more:hover {\n      box-shadow: none; }\n    .brand-card.more span, .brand-card.more a {\n      display: inline-block;\n      font-family: \"Oswald\", sans-serif;\n      font-weight: bold; }\n    .brand-card.more span {\n      width: 90%;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin-left: -45%;\n      font-size: 62px;\n      margin-top: -27%;\n      opacity: 0.1;\n      z-index: -1; }\n    .brand-card.more a {\n      text-decoration: none;\n      font-size: 18px;\n      color: #1f4ba5;\n      margin: 0 auto;\n      transition: all 0.3s ease-in-out; }\n      .brand-card.more a:hover + span {\n        opacity: 0.15; }\n", ""]);
-
-// exports
-
-
-/***/ }),
 /* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2167,7 +2159,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*footer styles*/\nfooter {\n  background: #222222;\n  color: #FFFFFF; }\n  footer .block {\n    padding: 0 15px; }\n  footer section {\n    display: flex;\n    flex: 1 100%;\n    flex-flow: row wrap;\n    align-items: center; }\n  footer .categories {\n    display: none; }\n    @media screen and (min-width: 768px) {\n      footer .categories {\n        display: block;\n        padding: 15px 0;\n        border-bottom: 1px solid #393939; }\n        footer .categories ul {\n          margin: 0 auto; }\n          footer .categories ul li > a {\n            color: #DDDDDD;\n            font-size: 15px;\n            display: inline-block;\n            min-width: 120px;\n            padding: 0 15px;\n            position: relative;\n            text-align: center; }\n            footer .categories ul li > a:after {\n              content: '';\n              display: inline-block;\n              width: 5px;\n              height: 5px;\n              background: #393939;\n              border-radius: 50%;\n              position: absolute;\n              right: 0;\n              top: 11px; }\n            footer .categories ul li > a:hover {\n              color: #f7f7f7; }\n              footer .categories ul li > a:hover:after {\n                background: #535353; } }\n  footer .copyrights, footer .signup, footer .associations {\n    flex: 0 0 100%; }\n  footer .copyrights {\n    order: 3;\n    font-family: \"PT Serif\", serif;\n    color: #535353;\n    font-size: 14px;\n    padding: 10px 0; }\n    @media screen and (min-width: 768px) {\n      footer .copyrights {\n        order: 1;\n        flex: 0 0 25%; } }\n    footer .copyrights h1 {\n      margin: 0 5px;\n      font-size: 18px;\n      color: #DDDDDD; }\n    footer .copyrights p {\n      margin: 0; }\n  footer .signup {\n    order: 1;\n    padding: 10px 0;\n    display: flex;\n    align-items: center;\n    flex-flow: row wrap; }\n    @media screen and (min-width: 768px) {\n      footer .signup {\n        flex: 0 0 50%;\n        order: 2;\n        border-right: 1px solid #393939;\n        border-left: 1px solid #393939; } }\n    footer .signup .input-group {\n      position: relative; }\n      footer .signup .input-group span.mail {\n        display: inline-block;\n        width: 30px;\n        height: 30px;\n        background: transparent url(" + __webpack_require__(26) + ") center center no-repeat;\n        background-size: 16px 16px;\n        top: 1px;\n        position: absolute;\n        left: 20px; }\n        @media screen and (min-width: 768px) {\n          footer .signup .input-group span.mail {\n            top: 12px;\n            position: relative;\n            left: 35px; } }\n      footer .signup .input-group input[type='text'] {\n        width: 90%;\n        max-width: 350px;\n        height: 30px;\n        padding: 10px 15px;\n        background: #393939;\n        color: #DDDDDD;\n        border: 1px solid #393939;\n        border-radius: 15px;\n        font-family: 'PT Serif', serif;\n        font-size: 12px;\n        padding-left: 40px; }\n        footer .signup .input-group input[type='text']:focus {\n          outline: none;\n          background: #414141; }\n      footer .signup .input-group a {\n        display: inline-block;\n        width: 30px;\n        padding: 5px;\n        height: 30px;\n        right: 20px;\n        position: absolute;\n        background: transparent url(" + __webpack_require__(30) + ") center center no-repeat;\n        background-size: 12px 12px; }\n        @media screen and (min-width: 768px) {\n          footer .signup .input-group a {\n            position: relative;\n            top: 10px;\n            right: 35px; } }\n    footer .signup ul li > a {\n      color: #868686;\n      display: inline-block;\n      padding: 0 15px;\n      font-size: 12px;\n      transition: all 0.3s ease-in-out; }\n      footer .signup ul li > a:hover {\n        color: #a0a0a0; }\n    footer .signup .input-group, footer .signup ul {\n      flex: 0 0 100%; }\n  footer .associations {\n    display: flex;\n    align-items: center;\n    flex-flow: row wrap;\n    order: 2; }\n    @media screen and (min-width: 768px) {\n      footer .associations {\n        order: 3;\n        flex: 0 0 25%; } }\n    footer .associations .social {\n      flex: 0 0 100%;\n      border-bottom: 1px solid #393939;\n      margin: 0 auto;\n      padding: 10px 0; }\n      footer .associations .social a {\n        display: inline-block;\n        margin: 0 12px;\n        width: 20px;\n        height: 20px;\n        transition: all 0.3s ease-in-out; }\n        footer .associations .social a.facebook {\n          background: transparent url(" + __webpack_require__(22) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.facebook:hover {\n            background: transparent url(" + __webpack_require__(21) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.twitter {\n          background: transparent url(" + __webpack_require__(37) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.twitter:hover {\n            background: transparent url(" + __webpack_require__(36) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.instagram {\n          background: transparent url(" + __webpack_require__(25) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.instagram:hover {\n            background: transparent url(" + __webpack_require__(24) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.pinterest {\n          background: transparent url(" + __webpack_require__(34) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.pinterest:hover {\n            background: transparent url(" + __webpack_require__(33) + ") center center no-repeat;\n            background-size: contain; }\n    footer .associations .payments {\n      flex: 0 0 100%;\n      margin: 0 auto;\n      padding: 10px 0;\n      border-bottom: 1px solid #393939; }\n      @media screen and (min-width: 768px) {\n        footer .associations .payments {\n          border-bottom: none; } }\n      footer .associations .payments a {\n        display: inline-block;\n        margin: 0 5px;\n        width: 50px;\n        height: 50px;\n        transition: all 0.3s ease-in-out; }\n        footer .associations .payments a.visa {\n          background: transparent url(" + __webpack_require__(40) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.visa:hover {\n            background: transparent url(" + __webpack_require__(39) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.paypal {\n          background: transparent url(" + __webpack_require__(32) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.paypal:hover {\n            background: transparent url(" + __webpack_require__(31) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.mastercard {\n          background: transparent url(" + __webpack_require__(28) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.mastercard:hover {\n            background: transparent url(" + __webpack_require__(27) + ") center center no-repeat;\n            background-size: contain; }\n  footer ul > li {\n    display: inline-block; }\n", ""]);
+exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*brand section styles*/\n.brand-card {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  height: 120px;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  -webkit-box-pack: start;\n  -ms-flex-pack: start;\n  justify-content: flex-start;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  border: 1px solid #EEEEEE;\n  border-top: none;\n  border-right: none;\n  cursor: pointer;\n  -webkit-transition: all 0.3s ease-in-out;\n  transition: all 0.3s ease-in-out; }\n  .brand-card:hover {\n    box-shadow: 0 -1px 15px #EEEEEE; }\n  .brand-card:last-child {\n    border-right: 1px solid #EEEEEE; }\n  @media screen and (min-width: 768px) {\n    .brand-card {\n      -webkit-box-flex: 0;\n      -ms-flex: 0 0 25%;\n      flex: 0 0 25%; } }\n  @media screen and (min-width: 992px) {\n    .brand-card {\n      -webkit-box-flex: 0;\n      -ms-flex: 0 0 12.5%;\n      flex: 0 0 12.5%; } }\n  .brand-card img {\n    width: 60px;\n    margin: 0 auto; }\n  .brand-card.more {\n    -webkit-transition: all 0.3s ease-in-out;\n    transition: all 0.3s ease-in-out;\n    position: relative; }\n    .brand-card.more:hover {\n      box-shadow: none; }\n    .brand-card.more span, .brand-card.more a {\n      display: inline-block;\n      font-family: \"Oswald\", sans-serif;\n      font-weight: bold; }\n    .brand-card.more span {\n      width: 90%;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin-left: -45%;\n      font-size: 62px;\n      margin-top: -27%;\n      opacity: 0.1;\n      z-index: -1; }\n    .brand-card.more a {\n      text-decoration: none;\n      font-size: 18px;\n      color: #1f4ba5;\n      margin: 0 auto;\n      -webkit-transition: all 0.3s ease-in-out;\n      transition: all 0.3s ease-in-out; }\n      .brand-card.more a:hover + span {\n        opacity: 0.15; }\n", ""]);
 
 // exports
 
@@ -2181,7 +2173,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/* nav styles */\nheader {\n  background: #FFFFFF;\n  height: 80px;\n  border-bottom: 1px solid #EEEEEE;\n  position: relative;\n  z-index: 2; }\n  header .header-container {\n    height: inherit;\n    align-items: center;\n    padding: 0 15px; }\n  header .crumb {\n    display: inline-block;\n    width: 24px;\n    height: 24px;\n    margin-right: 15px; }\n    header .crumb.close {\n      background: transparent url(" + __webpack_require__(29) + ") center center no-repeat;\n      background-size: contain; }\n  header .sidebar {\n    position: fixed;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    background: #FAFAFA;\n    z-index: 3;\n    overflow: hidden;\n    background: #1F4BA5;\n    color: #FFFFFF;\n    overflow: auto; }\n    header .sidebar .block {\n      align-items: center;\n      padding: 0 15px; }\n    header .sidebar h1 {\n      font-family: \"PT Serif\", serif;\n      text-align: center;\n      margin: 25px auto; }\n    header .sidebar a.close {\n      display: inline-block;\n      width: 24px;\n      height: 24px;\n      background: transparent url(" + __webpack_require__(19) + ") center center no-repeat;\n      background-size: contain; }\n    header .sidebar ul.list {\n      width: 100%;\n      font-family: \"Oswald\", sans-serif;\n      font-size: 24px; }\n      header .sidebar ul.list li {\n        display: block;\n        margin-bottom: 15px; }\n      header .sidebar ul.list > li {\n        margin-bottom: 25px; }\n      header .sidebar ul.list ul {\n        padding-left: 15px; }\n  header nav {\n    display: flex;\n    flex-grow: 1;\n    margin-left: 15px; }\n    header nav a {\n      font-size: 14px;\n      display: inline-block;\n      color: #222222;\n      padding: 0 15px;\n      position: relative;\n      transition: all 0.3s ease-in-out; }\n      header nav a:after {\n        content: '';\n        display: inline-block;\n        width: 8px;\n        height: 8px;\n        background: transparent url(" + __webpack_require__(17) + ") center center no-repeat;\n        background-size: contain;\n        transform: rotate(180deg);\n        position: absolute;\n        top: 7px;\n        right: 0; }\n      header nav a:hover {\n        color: #1F4BA5; }\n  header .jumbo-nav {\n    position: fixed;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    top: 80px;\n    background: #FFFFFF;\n    padding: 0 15px;\n    transition: all 0.3s ease-in-out; }\n    @media screen and (min-width: 768px) {\n      header .jumbo-nav {\n        position: absolute;\n        bottom: auto; } }\n    header .jumbo-nav .mobile-category a {\n      font-family: \"Oswald\", sans-serif;\n      color: #1F4BA5; }\n    header .jumbo-nav .block {\n      flex-direction: row; }\n      header .jumbo-nav .block h2 {\n        width: 100%;\n        font-family: \"Oswald\", sans-serif;\n        font-size: 20px;\n        text-transform: capitalize;\n        color: #1F4BA5; }\n      header .jumbo-nav .block > ul {\n        flex: 0 0 100%;\n        display: inline-block;\n        border-right: 1px solid #DDDDDD;\n        margin-right: 10px; }\n        header .jumbo-nav .block > ul li {\n          display: block;\n          color: #535353;\n          font-size: 14px;\n          margin-bottom: 10px; }\n        header .jumbo-nav .block > ul > li {\n          color: #222222;\n          font-size: 16px;\n          margin-bottom: 25px; }\n        header .jumbo-nav .block > ul ul {\n          padding-left: 15px;\n          margin-top: 15px; }\n        @media screen and (min-width: 768px) {\n          header .jumbo-nav .block > ul {\n            flex: 0 0 25%; } }\n  header .icons {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    margin: 0;\n    padding: 10px 0;\n    background: #FFFFFF;\n    text-align: center;\n    z-index: 2;\n    box-shadow: 0 -1px 2px #EEEEEE; }\n    @media screen and (min-width: 768px) {\n      header .icons {\n        position: static;\n        text-align: left;\n        box-shadow: none; } }\n    header .icons a {\n      display: inline-block;\n      margin: 5px 20px 0;\n      width: 20px;\n      height: 20px; }\n      @media screen and (min-width: 768px) {\n        header .icons a {\n          margin: 5px 15px 0; } }\n      header .icons a.bag {\n        background: transparent url(" + __webpack_require__(16) + ") center center no-repeat;\n        background-size: contain;\n        position: relative; }\n        header .icons a.bag:after {\n          content: attr(data-count);\n          display: inline-block;\n          width: 18px;\n          height: 16px;\n          border-radius: 50%;\n          background: #1F4BA5;\n          color: #FFFFFF;\n          font-size: 10px;\n          position: absolute;\n          top: -10px;\n          right: -10px;\n          text-align: center;\n          padding-top: 2px; }\n      header .icons a.user {\n        background: transparent url(" + __webpack_require__(38) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.search {\n        background: transparent url(" + __webpack_require__(35) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.home {\n        background: transparent url(" + __webpack_require__(23) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.category {\n        background: transparent url(" + __webpack_require__(18) + ") center center no-repeat;\n        background-size: contain; }\n  header ul > li {\n    display: inline-block; }\n\n#logo {\n  margin: 0 25px;\n  font: bold 22px \"PT Serif\", serif; }\n  #logo > a {\n    color: #1F4BA5;\n    font-size: 24px; }\n", ""]);
+exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*footer styles*/\nfooter {\n  background: #222222;\n  color: #FFFFFF; }\n  footer .block {\n    padding: 0 15px; }\n  footer section {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-flex: 1;\n    -ms-flex: 1 100%;\n    flex: 1 100%;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-flow: row wrap;\n    flex-flow: row wrap;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center; }\n  footer .categories {\n    display: none; }\n    @media screen and (min-width: 768px) {\n      footer .categories {\n        display: block;\n        padding: 15px 0;\n        border-bottom: 1px solid #393939; }\n        footer .categories ul {\n          margin: 0 auto; }\n          footer .categories ul li > a {\n            color: #DDDDDD;\n            font-size: 15px;\n            display: inline-block;\n            min-width: 120px;\n            padding: 0 15px;\n            position: relative;\n            text-align: center; }\n            footer .categories ul li > a:after {\n              content: '';\n              display: inline-block;\n              width: 5px;\n              height: 5px;\n              background: #393939;\n              border-radius: 50%;\n              position: absolute;\n              right: 0;\n              top: 11px; }\n            footer .categories ul li > a:hover {\n              color: #f7f7f7; }\n              footer .categories ul li > a:hover:after {\n                background: #535353; } }\n  footer .copyrights, footer .signup, footer .associations {\n    -webkit-box-flex: 0;\n    -ms-flex: 0 0 100%;\n    flex: 0 0 100%; }\n  footer .copyrights {\n    -webkit-box-ordinal-group: 4;\n    -ms-flex-order: 3;\n    order: 3;\n    font-family: \"PT Serif\", serif;\n    color: #535353;\n    font-size: 14px;\n    padding: 10px 0; }\n    @media screen and (min-width: 768px) {\n      footer .copyrights {\n        -webkit-box-ordinal-group: 2;\n        -ms-flex-order: 1;\n        order: 1;\n        -webkit-box-flex: 0;\n        -ms-flex: 0 0 25%;\n        flex: 0 0 25%; } }\n    footer .copyrights h1 {\n      margin: 0 5px;\n      font-size: 18px;\n      color: #DDDDDD; }\n    footer .copyrights p {\n      margin: 0; }\n  footer .signup {\n    -webkit-box-ordinal-group: 2;\n    -ms-flex-order: 1;\n    order: 1;\n    padding: 10px 0;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-flow: row wrap;\n    flex-flow: row wrap; }\n    @media screen and (min-width: 768px) {\n      footer .signup {\n        -webkit-box-flex: 0;\n        -ms-flex: 0 0 50%;\n        flex: 0 0 50%;\n        -webkit-box-ordinal-group: 3;\n        -ms-flex-order: 2;\n        order: 2;\n        border-right: 1px solid #393939;\n        border-left: 1px solid #393939; } }\n    footer .signup .input-group {\n      position: relative; }\n      footer .signup .input-group span.mail {\n        display: inline-block;\n        width: 30px;\n        height: 30px;\n        background: transparent url(" + __webpack_require__(26) + ") center center no-repeat;\n        background-size: 16px 16px;\n        top: 1px;\n        position: absolute;\n        left: 20px; }\n        @media screen and (min-width: 768px) {\n          footer .signup .input-group span.mail {\n            top: 12px;\n            position: relative;\n            left: 35px; } }\n      footer .signup .input-group input[type='text'] {\n        width: 90%;\n        max-width: 350px;\n        height: 30px;\n        padding: 10px 15px;\n        background: #393939;\n        color: #DDDDDD;\n        border: 1px solid #393939;\n        border-radius: 15px;\n        font-family: 'PT Serif', serif;\n        font-size: 12px;\n        padding-left: 40px; }\n        footer .signup .input-group input[type='text']:focus {\n          outline: none;\n          background: #414141; }\n      footer .signup .input-group a {\n        display: inline-block;\n        width: 30px;\n        padding: 5px;\n        height: 30px;\n        right: 20px;\n        position: absolute;\n        background: transparent url(" + __webpack_require__(30) + ") center center no-repeat;\n        background-size: 12px 12px; }\n        @media screen and (min-width: 768px) {\n          footer .signup .input-group a {\n            position: relative;\n            top: 10px;\n            right: 35px; } }\n    footer .signup ul li > a {\n      color: #868686;\n      display: inline-block;\n      padding: 0 15px;\n      font-size: 12px;\n      -webkit-transition: all 0.3s ease-in-out;\n      transition: all 0.3s ease-in-out; }\n      footer .signup ul li > a:hover {\n        color: #a0a0a0; }\n    footer .signup .input-group, footer .signup ul {\n      -webkit-box-flex: 0;\n      -ms-flex: 0 0 100%;\n      flex: 0 0 100%; }\n  footer .associations {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -ms-flex-flow: row wrap;\n    flex-flow: row wrap;\n    -webkit-box-ordinal-group: 3;\n    -ms-flex-order: 2;\n    order: 2; }\n    @media screen and (min-width: 768px) {\n      footer .associations {\n        -webkit-box-ordinal-group: 4;\n        -ms-flex-order: 3;\n        order: 3;\n        -webkit-box-flex: 0;\n        -ms-flex: 0 0 25%;\n        flex: 0 0 25%; } }\n    footer .associations .social {\n      -webkit-box-flex: 0;\n      -ms-flex: 0 0 100%;\n      flex: 0 0 100%;\n      border-bottom: 1px solid #393939;\n      margin: 0 auto;\n      padding: 10px 0; }\n      footer .associations .social a {\n        display: inline-block;\n        margin: 0 12px;\n        width: 20px;\n        height: 20px;\n        -webkit-transition: all 0.3s ease-in-out;\n        transition: all 0.3s ease-in-out; }\n        footer .associations .social a.facebook {\n          background: transparent url(" + __webpack_require__(22) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.facebook:hover {\n            background: transparent url(" + __webpack_require__(21) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.twitter {\n          background: transparent url(" + __webpack_require__(37) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.twitter:hover {\n            background: transparent url(" + __webpack_require__(36) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.instagram {\n          background: transparent url(" + __webpack_require__(25) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.instagram:hover {\n            background: transparent url(" + __webpack_require__(24) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.pinterest {\n          background: transparent url(" + __webpack_require__(34) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.pinterest:hover {\n            background: transparent url(" + __webpack_require__(33) + ") center center no-repeat;\n            background-size: contain; }\n    footer .associations .payments {\n      -webkit-box-flex: 0;\n      -ms-flex: 0 0 100%;\n      flex: 0 0 100%;\n      margin: 0 auto;\n      padding: 10px 0;\n      border-bottom: 1px solid #393939; }\n      @media screen and (min-width: 768px) {\n        footer .associations .payments {\n          border-bottom: none; } }\n      footer .associations .payments a {\n        display: inline-block;\n        margin: 0 5px;\n        width: 50px;\n        height: 50px;\n        -webkit-transition: all 0.3s ease-in-out;\n        transition: all 0.3s ease-in-out; }\n        footer .associations .payments a.visa {\n          background: transparent url(" + __webpack_require__(40) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.visa:hover {\n            background: transparent url(" + __webpack_require__(39) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.paypal {\n          background: transparent url(" + __webpack_require__(32) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.paypal:hover {\n            background: transparent url(" + __webpack_require__(31) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.mastercard {\n          background: transparent url(" + __webpack_require__(28) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.mastercard:hover {\n            background: transparent url(" + __webpack_require__(27) + ") center center no-repeat;\n            background-size: contain; }\n  footer ul > li {\n    display: inline-block; }\n", ""]);
 
 // exports
 
@@ -2195,7 +2187,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n* {\n  box-sizing: border-box; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  color: #FFFFFF; }\n\nhtml, body {\n  height: 100%; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  font: normal 16px/1.5 \"Varela Round\", sans-serif;\n  color: #222222; }\n\n.main-container {\n  min-height: 100%; }\n", ""]);
+exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/* nav styles */\nheader {\n  background: #FFFFFF;\n  height: 80px;\n  border-bottom: 1px solid #EEEEEE;\n  position: relative;\n  z-index: 2; }\n  header .header-container {\n    height: inherit;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center;\n    padding: 0 15px; }\n  header .crumb {\n    display: inline-block;\n    width: 24px;\n    height: 24px;\n    margin-right: 15px; }\n    header .crumb.close {\n      background: transparent url(" + __webpack_require__(29) + ") center center no-repeat;\n      background-size: contain; }\n  header .sidebar {\n    position: fixed;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    background: #FAFAFA;\n    z-index: 3;\n    overflow: hidden;\n    background: #1F4BA5;\n    color: #FFFFFF;\n    overflow: auto; }\n    header .sidebar .block {\n      -webkit-box-align: center;\n      -ms-flex-align: center;\n      align-items: center;\n      padding: 0 15px; }\n    header .sidebar h1 {\n      font-family: \"PT Serif\", serif;\n      text-align: center;\n      margin: 25px auto; }\n    header .sidebar a.close {\n      display: inline-block;\n      width: 24px;\n      height: 24px;\n      background: transparent url(" + __webpack_require__(19) + ") center center no-repeat;\n      background-size: contain; }\n    header .sidebar ul.list {\n      width: 100%;\n      font-family: \"Oswald\", sans-serif;\n      font-size: 24px; }\n      header .sidebar ul.list li {\n        display: block;\n        margin-bottom: 15px; }\n      header .sidebar ul.list > li {\n        margin-bottom: 25px; }\n      header .sidebar ul.list ul {\n        padding-left: 15px; }\n  header nav {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-flex: 1;\n    -ms-flex-positive: 1;\n    flex-grow: 1;\n    margin-left: 15px; }\n    header nav a {\n      font-size: 14px;\n      display: inline-block;\n      color: #222222;\n      padding: 0 15px;\n      position: relative;\n      -webkit-transition: all 0.3s ease-in-out;\n      transition: all 0.3s ease-in-out; }\n      header nav a:after {\n        content: '';\n        display: inline-block;\n        width: 8px;\n        height: 8px;\n        background: transparent url(" + __webpack_require__(3) + ") center center no-repeat;\n        background-size: contain;\n        -webkit-transform: rotate(180deg);\n        transform: rotate(180deg);\n        position: absolute;\n        top: 7px;\n        right: 0; }\n      header nav a:hover {\n        color: #1F4BA5; }\n  header .jumbo-nav {\n    position: fixed;\n    left: 0;\n    right: 0;\n    bottom: 0;\n    top: 80px;\n    background: #FFFFFF;\n    padding: 0 15px;\n    -webkit-transition: all 0.3s ease-in-out;\n    transition: all 0.3s ease-in-out; }\n    @media screen and (min-width: 768px) {\n      header .jumbo-nav {\n        position: absolute;\n        bottom: auto; } }\n    header .jumbo-nav .mobile-category a {\n      font-family: \"Oswald\", sans-serif;\n      color: #1F4BA5; }\n    header .jumbo-nav .block {\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n      flex-direction: row; }\n      header .jumbo-nav .block h2 {\n        width: 100%;\n        font-family: \"Oswald\", sans-serif;\n        font-size: 20px;\n        text-transform: capitalize;\n        color: #1F4BA5; }\n      header .jumbo-nav .block > ul {\n        -webkit-box-flex: 0;\n        -ms-flex: 0 0 100%;\n        flex: 0 0 100%;\n        display: inline-block;\n        border-right: 1px solid #DDDDDD;\n        margin-right: 10px; }\n        header .jumbo-nav .block > ul li {\n          display: block;\n          color: #535353;\n          font-size: 14px;\n          margin-bottom: 10px; }\n        header .jumbo-nav .block > ul > li {\n          color: #222222;\n          font-size: 16px;\n          margin-bottom: 25px; }\n        header .jumbo-nav .block > ul ul {\n          padding-left: 15px;\n          margin-top: 15px; }\n        @media screen and (min-width: 768px) {\n          header .jumbo-nav .block > ul {\n            -webkit-box-flex: 0;\n            -ms-flex: 0 0 25%;\n            flex: 0 0 25%; } }\n  header .icons {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    margin: 0;\n    padding: 10px 0;\n    background: #FFFFFF;\n    text-align: center;\n    z-index: 2;\n    box-shadow: 0 -1px 2px #EEEEEE; }\n    @media screen and (min-width: 768px) {\n      header .icons {\n        position: static;\n        text-align: left;\n        box-shadow: none; } }\n    header .icons a {\n      display: inline-block;\n      margin: 5px 20px 0;\n      width: 20px;\n      height: 20px; }\n      @media screen and (min-width: 768px) {\n        header .icons a {\n          margin: 5px 15px 0; } }\n      header .icons a.bag {\n        background: transparent url(" + __webpack_require__(17) + ") center center no-repeat;\n        background-size: contain;\n        position: relative; }\n        header .icons a.bag:after {\n          content: attr(data-count);\n          display: inline-block;\n          width: 18px;\n          height: 16px;\n          border-radius: 50%;\n          background: #1F4BA5;\n          color: #FFFFFF;\n          font-size: 10px;\n          position: absolute;\n          top: -10px;\n          right: -10px;\n          text-align: center;\n          padding-top: 2px; }\n      header .icons a.user {\n        background: transparent url(" + __webpack_require__(38) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.search {\n        background: transparent url(" + __webpack_require__(35) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.home {\n        background: transparent url(" + __webpack_require__(23) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.category {\n        background: transparent url(" + __webpack_require__(18) + ") center center no-repeat;\n        background-size: contain; }\n  header ul > li {\n    display: inline-block; }\n\n#logo {\n  margin: 0 25px;\n  font: bold 22px \"PT Serif\", serif; }\n  #logo > a {\n    color: #1F4BA5;\n    font-size: 24px; }\n", ""]);
 
 // exports
 
@@ -2209,7 +2201,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*products section styles*/\n.product-card {\n  display: flex;\n  min-height: 250px;\n  flex: 0 0 50%;\n  flex-flow: column wrap;\n  justify-content: space-between;\n  border: 1px solid #EEEEEE;\n  padding: 25px 25px;\n  border-top: none;\n  border-right: none;\n  cursor: pointer;\n  transition: all 0.3s ease-in-out; }\n  .product-card:hover {\n    box-shadow: 0 5px 15px #EEEEEE; }\n  @media screen and (min-width: 768px) {\n    .product-card {\n      flex: 0 0 33.33%;\n      min-height: 280px; }\n      .product-card:last-child {\n        border-right: 1px solid #EEEEEE; } }\n  @media screen and (min-width: 992px) {\n    .product-card {\n      flex: 0 0 25%;\n      min-height: 300px; }\n      .product-card:nth-child(4n) {\n        border-right: 1px solid #EEEEEE; } }\n  .product-card h1 {\n    font-size: 12px;\n    margin: 0; }\n    @media screen and (min-width: 768px) {\n      .product-card h1 {\n        font-size: 16px; } }\n  .product-card section {\n    position: relative; }\n  .product-card .product-img {\n    flex-grow: 4;\n    display: flex;\n    align-items: center; }\n    .product-card .product-img img {\n      height: 100px;\n      margin: 0 auto; }\n      @media screen and (min-width: 768px) {\n        .product-card .product-img img {\n          height: 120px; } }\n  .product-card .tag, .product-card .price {\n    font-family: \"Oswald\", sans-serif;\n    font-weight: bold; }\n  .product-card .price.slashed {\n    position: absolute;\n    right: 0;\n    bottom: 3px;\n    font-size: 12px;\n    color: #868686;\n    text-decoration: line-through; }\n  .product-card .tag {\n    display: inline-block;\n    padding: 2px 5px;\n    border-radius: 3px;\n    position: relative;\n    font-size: 8px;\n    text-transform: uppercase;\n    position: absolute;\n    left: 0;\n    bottom: 5px;\n    color: #FFFFFF; }\n    @media screen and (min-width: 768px) {\n      .product-card .tag {\n        padding: 2px 10px;\n        font-size: 10px;\n        bottom: 3px; } }\n    .product-card .tag:after {\n      content: '';\n      display: inline-block;\n      width: 11px;\n      height: 12px;\n      transform: rotate(45deg);\n      position: absolute;\n      right: -5px;\n      top: 2px;\n      z-index: -1; }\n      @media screen and (min-width: 768px) {\n        .product-card .tag:after {\n          width: 13px;\n          height: 13px;\n          right: -6px;\n          top: 3px; } }\n    .product-card .tag.yellow, .product-card .tag.yellow:after {\n      background: #FFC12B; }\n    .product-card .tag.red, .product-card .tag.red:after {\n      background: #FF3F2B; }\n    .product-card .tag.green, .product-card .tag.green:after {\n      background: #68BF7B; }\n  .product-card.non-product {\n    cursor: auto;\n    transition: all 0.3s ease-in-out; }\n    .product-card.non-product:hover {\n      box-shadow: none; }\n    .product-card.non-product span.diamond {\n      margin: 0 auto;\n      display: inline-block;\n      width: 24px;\n      height: 24px;\n      background: transparent url(" + __webpack_require__(20) + ") center center no-repeat;\n      background-size: contain; }\n    .product-card.non-product h1 {\n      font-family: \"Oswald\", sans-serif;\n      font-weight: bold;\n      color: #1F4BA5;\n      font-size: 20px;\n      text-transform: uppercase; }\n    .product-card.non-product p {\n      font-size: 14px; }\n    @media screen and (min-width: 768px) {\n      .product-card.non-product h1 {\n        font-size: 36px; }\n      .product-card.non-product p {\n        font-size: 16px; } }\n", ""]);
+exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n* {\n  box-sizing: border-box; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\na {\n  text-decoration: none;\n  color: #FFFFFF; }\n\nhtml, body {\n  height: 100%; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  font: normal 16px/1.5 \"Varela Round\", sans-serif;\n  color: #222222; }\n\n.main-container {\n  min-height: 100%; }\n", ""]);
 
 // exports
 
@@ -2223,7 +2215,7 @@ exports = module.exports = __webpack_require__(1)();
 
 
 // module
-exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*hero section styles*/\n.hero-section {\n  background: #EEEEEE;\n  height: 200px;\n  overflow: hidden; }\n  .hero-section .active-slide {\n    flex: 1 100%;\n    height: 200px;\n    background: #535353;\n    overflow: hidden;\n    cursor: pointer;\n    position: relative; }\n    .hero-section .active-slide img {\n      max-width: 100%;\n      transition: all 0.3s ease-in-out; }\n      .hero-section .active-slide img:hover {\n        transform: scale(1.05); }\n    .hero-section .active-slide .controls {\n      display: inline-block;\n      width: 50px;\n      height: 50px;\n      background: #FAFAFA;\n      border-radius: 50%;\n      position: absolute;\n      background: #FAFAFA url(" + __webpack_require__(17) + ") center center no-repeat;\n      top: 50%;\n      margin-top: -25px;\n      z-index: 1; }\n      .hero-section .active-slide .controls.next {\n        transform: rotate(90deg);\n        right: 15px;\n        box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5); }\n      .hero-section .active-slide .controls.prev {\n        transform: rotate(-90deg);\n        left: 15px;\n        box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.5); }\n  .hero-section .slides-container {\n    display: none; }\n  @media screen and (min-width: 768px) {\n    .hero-section {\n      height: 400px; }\n      .hero-section .active-slide {\n        flex: 0 0 80%;\n        height: 400px; }\n      .hero-section .slides-container {\n        display: block;\n        flex: 1 0 20%; }\n        .hero-section .slides-container .siderbar-item {\n          height: 100px;\n          background: #868686;\n          overflow: hidden;\n          cursor: pointer;\n          position: relative; }\n          .hero-section .slides-container .siderbar-item img {\n            max-width: 100%;\n            transition: all 0.3s ease-in-out; }\n            .hero-section .slides-container .siderbar-item img:hover {\n              transform: scale(1.05); }\n          .hero-section .slides-container .siderbar-item.active-slide {\n            border-left: 10px solid #1F4BA5; }\n            .hero-section .slides-container .siderbar-item.active-slide:after {\n              content: '';\n              position: absolute;\n              left: 0;\n              right: 0;\n              bottom: 0;\n              top: 0;\n              background: #FFFFFF;\n              opacity: 0.5; } }\n  @media screen and (min-width: 992px) {\n    .hero-section {\n      height: 500px; }\n      .hero-section .active-slide {\n        height: 500px; }\n      .hero-section .slides-container .siderbar-item {\n        height: 125px; } }\n", ""]);
+exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*products section styles*/\n.product-card {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  min-height: 250px;\n  -webkit-box-flex: 0;\n  -ms-flex: 0 0 50%;\n  flex: 0 0 50%;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -ms-flex-flow: column wrap;\n  flex-flow: column wrap;\n  -webkit-box-pack: justify;\n  -ms-flex-pack: justify;\n  justify-content: space-between;\n  border: 1px solid #EEEEEE;\n  padding: 25px 25px;\n  border-top: none;\n  border-right: none;\n  cursor: pointer;\n  -webkit-transition: all 0.3s ease-in-out;\n  transition: all 0.3s ease-in-out; }\n  .product-card:hover {\n    box-shadow: 0 5px 15px #EEEEEE; }\n  @media screen and (min-width: 768px) {\n    .product-card {\n      -webkit-box-flex: 0;\n      -ms-flex: 0 0 33.33%;\n      flex: 0 0 33.33%;\n      min-height: 280px; }\n      .product-card:last-child {\n        border-right: 1px solid #EEEEEE; } }\n  @media screen and (min-width: 992px) {\n    .product-card {\n      -webkit-box-flex: 0;\n      -ms-flex: 0 0 25%;\n      flex: 0 0 25%;\n      min-height: 300px; }\n      .product-card:nth-child(4n) {\n        border-right: 1px solid #EEEEEE; } }\n  .product-card h1 {\n    font-size: 12px;\n    margin: 0; }\n    @media screen and (min-width: 768px) {\n      .product-card h1 {\n        font-size: 16px; } }\n  .product-card section {\n    position: relative; }\n  .product-card .product-img {\n    -webkit-box-flex: 4;\n    -ms-flex-positive: 4;\n    flex-grow: 4;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -ms-flex-align: center;\n    align-items: center; }\n    .product-card .product-img img {\n      height: 100px;\n      margin: 0 auto; }\n      @media screen and (min-width: 768px) {\n        .product-card .product-img img {\n          height: 120px; } }\n  .product-card .tag, .product-card .price {\n    font-family: \"Oswald\", sans-serif;\n    font-weight: bold; }\n  .product-card .price.slashed {\n    position: absolute;\n    right: 0;\n    bottom: 3px;\n    font-size: 12px;\n    color: #868686;\n    text-decoration: line-through; }\n  .product-card .tag {\n    display: inline-block;\n    padding: 2px 5px;\n    border-radius: 3px;\n    position: relative;\n    font-size: 8px;\n    text-transform: uppercase;\n    position: absolute;\n    left: 0;\n    bottom: 5px;\n    color: #FFFFFF; }\n    @media screen and (min-width: 768px) {\n      .product-card .tag {\n        padding: 2px 10px;\n        font-size: 10px;\n        bottom: 3px; } }\n    .product-card .tag:after {\n      content: '';\n      display: inline-block;\n      width: 11px;\n      height: 12px;\n      -webkit-transform: rotate(45deg);\n      transform: rotate(45deg);\n      position: absolute;\n      right: -5px;\n      top: 2px;\n      z-index: -1; }\n      @media screen and (min-width: 768px) {\n        .product-card .tag:after {\n          width: 13px;\n          height: 13px;\n          right: -6px;\n          top: 3px; } }\n    .product-card .tag.yellow, .product-card .tag.yellow:after {\n      background: #FFC12B; }\n    .product-card .tag.red, .product-card .tag.red:after {\n      background: #FF3F2B; }\n    .product-card .tag.green, .product-card .tag.green:after {\n      background: #68BF7B; }\n  .product-card.non-product {\n    cursor: auto;\n    -webkit-transition: all 0.3s ease-in-out;\n    transition: all 0.3s ease-in-out; }\n    .product-card.non-product:hover {\n      box-shadow: none; }\n    .product-card.non-product span.diamond {\n      margin: 0 auto;\n      display: inline-block;\n      width: 24px;\n      height: 24px;\n      background: transparent url(" + __webpack_require__(20) + ") center center no-repeat;\n      background-size: contain; }\n    .product-card.non-product h1 {\n      font-family: \"Oswald\", sans-serif;\n      font-weight: bold;\n      color: #1F4BA5;\n      font-size: 20px;\n      text-transform: uppercase; }\n    .product-card.non-product p {\n      font-size: 14px; }\n    @media screen and (min-width: 768px) {\n      .product-card.non-product h1 {\n        font-size: 36px; }\n      .product-card.non-product p {\n        font-size: 16px; } }\n", ""]);
 
 // exports
 
@@ -2232,13 +2224,21 @@ exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wra
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "736344c523f7d42f461ec0bffdf323b7.png";
+exports = module.exports = __webpack_require__(1)();
+// imports
+
+
+// module
+exports.push([module.i, "/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n\n/*hero section styles*/\n.hero-section {\n  background: #EEEEEE;\n  height: 200px;\n  overflow: hidden; }\n  .hero-section .active-slide {\n    -webkit-box-flex: 1;\n    -ms-flex: 1 100%;\n    flex: 1 100%;\n    height: 200px;\n    background: #535353;\n    overflow: hidden;\n    cursor: pointer;\n    position: relative; }\n    .hero-section .active-slide img {\n      max-width: 100%;\n      -webkit-transition: all 0.3s ease-in-out;\n      transition: all 0.3s ease-in-out; }\n      .hero-section .active-slide img:hover {\n        -webkit-transform: scale(1.05);\n        transform: scale(1.05); }\n    .hero-section .active-slide .controls {\n      display: inline-block;\n      width: 50px;\n      height: 50px;\n      background: #FAFAFA;\n      border-radius: 50%;\n      position: absolute;\n      background: #FAFAFA url(" + __webpack_require__(3) + ") center center no-repeat;\n      top: 50%;\n      margin-top: -25px;\n      z-index: 1; }\n      .hero-section .active-slide .controls.next {\n        -webkit-transform: rotate(90deg);\n        transform: rotate(90deg);\n        right: 15px;\n        box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5); }\n      .hero-section .active-slide .controls.prev {\n        -webkit-transform: rotate(-90deg);\n        transform: rotate(-90deg);\n        left: 15px;\n        box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.5); }\n  .hero-section .slides-container {\n    display: none; }\n  @media screen and (min-width: 768px) {\n    .hero-section {\n      height: 400px; }\n      .hero-section .active-slide {\n        -webkit-box-flex: 0;\n        -ms-flex: 0 0 80%;\n        flex: 0 0 80%;\n        height: 400px; }\n      .hero-section .slides-container {\n        display: block;\n        -webkit-box-flex: 1;\n        -ms-flex: 1 0 20%;\n        flex: 1 0 20%; }\n        .hero-section .slides-container .siderbar-item {\n          height: 100px;\n          background: #868686;\n          overflow: hidden;\n          cursor: pointer;\n          position: relative; }\n          .hero-section .slides-container .siderbar-item img {\n            max-width: 100%;\n            -webkit-transition: all 0.3s ease-in-out;\n            transition: all 0.3s ease-in-out; }\n            .hero-section .slides-container .siderbar-item img:hover {\n              -webkit-transform: scale(1.05);\n              transform: scale(1.05); }\n          .hero-section .slides-container .siderbar-item.active-slide {\n            border-left: 10px solid #1F4BA5; }\n            .hero-section .slides-container .siderbar-item.active-slide:after {\n              content: '';\n              position: absolute;\n              left: 0;\n              right: 0;\n              bottom: 0;\n              top: 0;\n              background: #FFFFFF;\n              opacity: 0.5; } }\n  @media screen and (min-width: 992px) {\n    .hero-section {\n      height: 500px; }\n      .hero-section .active-slide {\n        height: 500px; }\n      .hero-section .slides-container .siderbar-item {\n        height: 125px; } }\n", ""]);
+
+// exports
+
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "37a2396077b8e482432d50f8a73acd15.png";
+module.exports = __webpack_require__.p + "736344c523f7d42f461ec0bffdf323b7.png";
 
 /***/ }),
 /* 18 */
@@ -2385,7 +2385,7 @@ module.exports = __webpack_require__.p + "c936ecd2eea1d5d75fdff28bb4c04a45.png";
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(10);
+var content = __webpack_require__(11);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(2)(content, {});
@@ -2394,8 +2394,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./brand.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./brand.scss");
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./brand.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./brand.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -2411,7 +2411,7 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(11);
+var content = __webpack_require__(12);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(2)(content, {});
@@ -2420,8 +2420,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./footer.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./footer.scss");
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./footer.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./footer.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -2437,7 +2437,7 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(12);
+var content = __webpack_require__(13);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(2)(content, {});
@@ -2446,8 +2446,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./header.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./header.scss");
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./header.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./header.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -2463,7 +2463,7 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(13);
+var content = __webpack_require__(14);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(2)(content, {});
@@ -2472,8 +2472,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./main.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./main.scss");
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./main.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./main.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -2489,7 +2489,7 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(14);
+var content = __webpack_require__(15);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(2)(content, {});
@@ -2498,8 +2498,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./products.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./products.scss");
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./products.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./products.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -2515,7 +2515,7 @@ if(false) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(15);
+var content = __webpack_require__(16);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
 var update = __webpack_require__(2)(content, {});
@@ -2524,8 +2524,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./slider.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./slider.scss");
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./slider.scss", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!../node_modules/postcss-loader/index.js!./slider.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -2543,7 +2543,7 @@ if(false) {
 
 var _preact = __webpack_require__(0);
 
-var _BuyBlue = __webpack_require__(3);
+var _BuyBlue = __webpack_require__(4);
 
 var _BuyBlue2 = _interopRequireDefault(_BuyBlue);
 
