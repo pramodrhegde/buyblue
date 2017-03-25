@@ -212,29 +212,46 @@ header {
 /*products section styles*/
 .product-card {
   display: flex;
-  min-height: 300px;
+  min-height: 250px;
   flex: 0 0 50%;
   flex-flow: column wrap;
   justify-content: space-between;
   border: 1px solid #eeeeee;
   padding: 25px 25px;
+  border-top: none;
+  border-right: none;
+  cursor: pointer;
 
+  &:hover {
+    box-shadow: 0 5px 15px #eeeeee;
+  }
   @media screen and (min-width: 768px) {
     flex: 0 0 33.33%;
+    min-height: 280px;
+    &:last-child {
+      border-right: 1px solid #eeeeee;
+    }
   }
 
   @media screen and (min-width: 992px) {
     flex: 0 0 25%;
+    min-height: 300px;
+    &:nth-child(4n) {
+      border-right: 1px solid #eeeeee;
+    }
   }
 
   h1 {
-    flex-grow: 1;
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
+
+    @media screen and (min-width: 768px) {
+      font-size: 16px;
+    }
   }
 
-  h1, section {
-    flex-grow: 1
+  section {
+    position: relative;
   }
 
   .product-img {
@@ -243,8 +260,11 @@ header {
     align-items: center;
 
     img {
-      height: 120px;
+      height: 100px;
       margin: 0 auto;
+      @media screen and (min-width: 768px) {
+        height: 120px;
+      }
     }
   }
 
@@ -253,23 +273,95 @@ header {
     font-weight: bold;
   }
 
+  .price {
+    &.slashed {
+      position: absolute;
+      right: 0;
+      bottom: 3px;
+      font-size: 12px;
+      color: #868686;
+      text-decoration: line-through;
+    }
+  }
   .tag {
     display: inline-block;
-    padding: 2px 15px;
+    padding: 2px 5px;
     border-radius: 3px;
     position: relative;
-    background: #eeeeee;
+    font-size: 8px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: #ffffff;
+
+    @media screen and (min-width: 768px)  {
+      padding: 2px 10px;
+      font-size: 10px;
+      bottom: 3px;
+    }
 
     &:after {
       content: '';
       display: inline-block;
-      width: 10px;
-      height: 10px;
-      transform: rotateX(45deg);
+      width: 11px;
+      height: 12px;
+      transform: rotate(45deg);
       position: absolute;
-      right: 5px;
-      top: 0;
-      background: #eeeeee;
+      right: -5px;
+      top: 2px;
+      z-index: -1;
+      @media screen and (min-width: 768px)   {
+        width: 13px;
+        height: 13px;
+        right: -6px;
+        top: 3px;
+      }
+    }
+
+    &.yellow, &.yellow:after {
+      background: #ffc12b;
+    }
+    &.red, &.red:after {
+      background: #ff3f2b;
+    }
+    &.green, &.green:after {
+      background: #68bf7b;
+    }
+  }
+
+  &.non-product {
+    cursor: auto;
+    &:hover {
+      box-shadow: none;
+    }
+    span.diamond {
+      margin: 0 auto;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background: transparent url('../assets/diamond.png') center center no-repeat;
+      background-size: contain;
+    }
+    h1 {
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      color: #1f4ba5;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    @media screen and (min-width: 768px)  {
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -282,7 +374,16 @@ header {
   justify-content: flex-start;
   align-items: center;
   border: 1px solid #eeeeee;
+  border-top: none;
+  border-right: none;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 -1px 15px #eeeeee;
+  }
 
+  &:last-child {
+    border-right: 1px solid #eeeeee;
+  }
   @media screen and (min-width: 768px) {
     flex: 0 0 25%;
   }
@@ -294,6 +395,35 @@ header {
   img {
     width: 60px;
     margin: 0 auto;
+  }
+
+  &.more {
+    &:hover {
+      box-shadow: none;
+    }
+    position: relative;
+    span, a {
+      display: inline-block;
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+    }
+    span{
+      width: 90%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -45%;
+      font-size: 62px;
+      margin-top: -27%;
+      opacity: 0.1;
+      z-index: -1;
+    }
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #1f4ba5;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -502,6 +632,10 @@ footer {
       margin: 0 auto;
       padding: 10px 0;
       border-bottom: 1px solid #393939;
+      @media screen and (min-width: 768px) {
+        border-bottom: none;
+      }
+
       a {
         display: inline-block;
         margin: 0 5px;

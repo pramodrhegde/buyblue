@@ -24,9 +24,9 @@ export default class BrandsComponent extends Component {
       <div className='brand-card'>
         <img src='./assets/logo.png' className='img-responsive' alt='brand-img'/>
       </div>
-      <div className='brand-card'>
-        <span>274</span>
-        <p>All brands</p>
+      <div className='brand-card more'>
+        <span className='text-center'>274</span>
+        <a href='javascript:void(0);' className='text-center'>All <br/> brands</a>
       </div>
     </div>;
   }

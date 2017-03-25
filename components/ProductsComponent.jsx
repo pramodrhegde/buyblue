@@ -4,7 +4,7 @@ export default class ProductsComponent extends Component {
   render() {
     return <div className='block'>
       <div className='product-card non-product text-center'>
-        <span></span>
+        <span className='diamond'></span>
         <h1>Featured products</h1>
         <p>the best of our store</p>
       </div>
