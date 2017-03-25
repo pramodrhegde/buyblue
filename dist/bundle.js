@@ -60,10 +60,10 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "D:\\Work\\Rentomojo-assignment\\buyblue/dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 32);
+/******/ 	return __webpack_require__(__webpack_require__.s = 36);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -592,7 +592,7 @@ var _Footer = __webpack_require__(3);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-__webpack_require__(31);
+__webpack_require__(35);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1553,7 +1553,7 @@ exports = module.exports = __webpack_require__(9)();
 
 
 // module
-exports.push([module.i, "* {\n  box-sizing: border-box; }\n\nhtml, body {\n  height: 100%; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  font: normal 16px/1.5 'Varela Round', sans-serif;\n  color: #222222; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\n.main-container {\n  min-height: 100%; }\n\n/* nav styles */\nheader {\n  background: #ffffff;\n  height: 80px;\n  border-bottom: 1px solid #eeeeee;\n  position: relative;\n  z-index: 2; }\n  header .header-container {\n    height: inherit;\n    align-items: center;\n    padding: 0 15px; }\n  header .crumb {\n    display: inline-block;\n    width: 24px;\n    height: 24px;\n    margin-right: 15px; }\n    header .crumb.open {\n      background: transparent url(" + __webpack_require__(12) + ") center center no-repeat;\n      background-size: contain; }\n    header .crumb.close {\n      background: transparent url(" + __webpack_require__(19) + ") center center no-repeat;\n      background-size: contain; }\n  header .sidebar {\n    position: fixed;\n    top: 80px;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    background: #fafafa;\n    z-index: 1;\n    overflow: hidden; }\n  header nav {\n    display: flex;\n    flex-grow: 1;\n    margin-left: 15px; }\n    header nav a {\n      font-size: 14px;\n      display: inline-block;\n      text-decoration: none;\n      color: #222222;\n      margin: 0 15px;\n      position: relative; }\n      header nav a:after {\n        content: '';\n        display: inline-block;\n        width: 8px;\n        height: 8px;\n        background: transparent url(" + __webpack_require__(11) + ") center center no-repeat;\n        background-size: contain;\n        transform: rotate(180deg);\n        position: absolute;\n        top: 7px;\n        right: -15px; }\n  header .jumbo-nav {\n    position: absolute;\n    left: 0;\n    right: 0;\n    top: 80px;\n    background: #fafafa; }\n  header .icons {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    margin: 0;\n    padding: 10px 0;\n    background: #ffffff;\n    text-align: center; }\n    @media screen and (min-width: 768px) {\n      header .icons {\n        position: static;\n        text-align: left; } }\n    header .icons a {\n      display: inline-block;\n      text-decoration: none;\n      margin: 5px 20px 0;\n      width: 20px;\n      height: 20px; }\n      @media screen and (min-width: 768px) {\n        header .icons a {\n          margin: 5px 15px 0; } }\n      header .icons a.bag {\n        background: transparent url(" + __webpack_require__(10) + ") center center no-repeat;\n        background-size: contain;\n        position: relative; }\n        header .icons a.bag:after {\n          content: attr(data-count);\n          display: inline-block;\n          width: 18px;\n          height: 16px;\n          border-radius: 50%;\n          background: #1f4ba5;\n          color: #ffffff;\n          font-size: 10px;\n          position: absolute;\n          top: -10px;\n          right: -10px;\n          text-align: center;\n          padding-top: 2px; }\n      header .icons a.user {\n        background: transparent url(" + __webpack_require__(27) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.search {\n        background: transparent url(" + __webpack_require__(24) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.home {\n        background: transparent url(" + __webpack_require__(35) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.category {\n        background: transparent url(" + __webpack_require__(34) + ") center center no-repeat;\n        background-size: contain; }\n  header ul > li {\n    display: inline-block; }\n\n#logo {\n  margin: 0 25px;\n  font: bold 22px 'PT Serif', serif; }\n  #logo > a {\n    color: #1f4ba5;\n    text-decoration: none;\n    font-size: 24px; }\n\n/*hero section styles*/\n.hero-section {\n  background: #eeeeee;\n  height: 500px; }\n  .hero-section .active-slide {\n    flex: 1 100%;\n    background: #555; }\n  .hero-section .slides-container {\n    display: none; }\n  @media screen and (min-width: 768px) {\n    .hero-section .active-slide {\n      flex: 0 0 80%;\n      height: 500px; }\n    .hero-section .slides-container {\n      display: block;\n      flex: 1 0 20%; }\n      .hero-section .slides-container .siderbar-item {\n        height: 125px;\n        background: #666; } }\n\n/*products section styles*/\n.product-card {\n  display: flex;\n  min-height: 250px;\n  flex: 0 0 50%;\n  flex-flow: column wrap;\n  justify-content: space-between;\n  border: 1px solid #eeeeee;\n  padding: 25px 25px;\n  border-top: none;\n  border-right: none;\n  cursor: pointer; }\n  .product-card:hover {\n    box-shadow: 0 5px 15px #eeeeee; }\n  @media screen and (min-width: 768px) {\n    .product-card {\n      flex: 0 0 33.33%;\n      min-height: 280px; }\n      .product-card:last-child {\n        border-right: 1px solid #eeeeee; } }\n  @media screen and (min-width: 992px) {\n    .product-card {\n      flex: 0 0 25%;\n      min-height: 300px; }\n      .product-card:nth-child(4n) {\n        border-right: 1px solid #eeeeee; } }\n  .product-card h1 {\n    font-size: 12px;\n    margin: 0; }\n    @media screen and (min-width: 768px) {\n      .product-card h1 {\n        font-size: 16px; } }\n  .product-card section {\n    position: relative; }\n  .product-card .product-img {\n    flex-grow: 4;\n    display: flex;\n    align-items: center; }\n    .product-card .product-img img {\n      height: 100px;\n      margin: 0 auto; }\n      @media screen and (min-width: 768px) {\n        .product-card .product-img img {\n          height: 120px; } }\n  .product-card .tag, .product-card .price {\n    font-family: 'Oswald', sans-serif;\n    font-weight: bold; }\n  .product-card .price.slashed {\n    position: absolute;\n    right: 0;\n    bottom: 3px;\n    font-size: 12px;\n    color: #868686;\n    text-decoration: line-through; }\n  .product-card .tag {\n    display: inline-block;\n    padding: 2px 5px;\n    border-radius: 3px;\n    position: relative;\n    font-size: 8px;\n    text-transform: uppercase;\n    position: absolute;\n    left: 0;\n    bottom: 5px;\n    color: #ffffff; }\n    @media screen and (min-width: 768px) {\n      .product-card .tag {\n        padding: 2px 10px;\n        font-size: 10px;\n        bottom: 3px; } }\n    .product-card .tag:after {\n      content: '';\n      display: inline-block;\n      width: 11px;\n      height: 12px;\n      transform: rotate(45deg);\n      position: absolute;\n      right: -5px;\n      top: 2px;\n      z-index: -1; }\n      @media screen and (min-width: 768px) {\n        .product-card .tag:after {\n          width: 13px;\n          height: 13px;\n          right: -6px;\n          top: 3px; } }\n    .product-card .tag.yellow, .product-card .tag.yellow:after {\n      background: #ffc12b; }\n    .product-card .tag.red, .product-card .tag.red:after {\n      background: #ff3f2b; }\n    .product-card .tag.green, .product-card .tag.green:after {\n      background: #68bf7b; }\n  .product-card.non-product {\n    cursor: auto; }\n    .product-card.non-product:hover {\n      box-shadow: none; }\n    .product-card.non-product span.diamond {\n      margin: 0 auto;\n      display: inline-block;\n      width: 24px;\n      height: 24px;\n      background: transparent url(" + __webpack_require__(36) + ") center center no-repeat;\n      background-size: contain; }\n    .product-card.non-product h1 {\n      font-family: 'Oswald', sans-serif;\n      font-weight: bold;\n      color: #1f4ba5;\n      font-size: 20px;\n      text-transform: uppercase; }\n    .product-card.non-product p {\n      font-size: 14px; }\n    @media screen and (min-width: 768px) {\n      .product-card.non-product h1 {\n        font-size: 36px; }\n      .product-card.non-product p {\n        font-size: 16px; } }\n\n/*brand section styles*/\n.brand-card {\n  display: flex;\n  height: 120px;\n  flex: 0 0 50%;\n  justify-content: flex-start;\n  align-items: center;\n  border: 1px solid #eeeeee;\n  border-top: none;\n  border-right: none;\n  cursor: pointer; }\n  .brand-card:hover {\n    box-shadow: 0 -1px 15px #eeeeee; }\n  .brand-card:last-child {\n    border-right: 1px solid #eeeeee; }\n  @media screen and (min-width: 768px) {\n    .brand-card {\n      flex: 0 0 25%; } }\n  @media screen and (min-width: 992px) {\n    .brand-card {\n      flex: 0 0 12.5%; } }\n  .brand-card img {\n    width: 60px;\n    margin: 0 auto; }\n  .brand-card.more {\n    position: relative; }\n    .brand-card.more:hover {\n      box-shadow: none; }\n    .brand-card.more span, .brand-card.more a {\n      display: inline-block;\n      font-family: 'Oswald', sans-serif;\n      font-weight: bold; }\n    .brand-card.more span {\n      width: 90%;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin-left: -45%;\n      font-size: 62px;\n      margin-top: -27%;\n      opacity: 0.1;\n      z-index: -1; }\n    .brand-card.more a {\n      text-decoration: none;\n      font-size: 18px;\n      color: #1f4ba5;\n      margin: 0 auto; }\n\n/*footer styles*/\nfooter {\n  background: #222222;\n  color: #ffffff; }\n  footer .block {\n    padding: 0 15px; }\n  footer section {\n    display: flex;\n    flex: 1 100%;\n    flex-flow: row wrap;\n    align-items: center; }\n  footer .categories {\n    display: none; }\n    @media screen and (min-width: 768px) {\n      footer .categories {\n        display: block;\n        padding: 15px 0;\n        border-bottom: 1px solid #393939; }\n        footer .categories ul {\n          margin: 0 auto; }\n          footer .categories ul li > a {\n            text-decoration: none;\n            color: #dddddd;\n            font-size: 15px;\n            display: inline-block;\n            min-width: 120px;\n            padding: 0 15px;\n            position: relative;\n            text-align: center; }\n            footer .categories ul li > a:after {\n              content: '';\n              display: inline-block;\n              width: 5px;\n              height: 5px;\n              background: #393939;\n              border-radius: 50%;\n              position: absolute;\n              right: 0;\n              top: 11px; } }\n  footer .copyrights, footer .signup, footer .associations {\n    flex: 0 0 100%; }\n  footer .copyrights {\n    order: 3;\n    font-family: 'PT Serif', serif;\n    color: #535353;\n    font-size: 14px;\n    padding: 10px 0; }\n    @media screen and (min-width: 768px) {\n      footer .copyrights {\n        order: 1;\n        flex: 0 0 25%; } }\n    footer .copyrights h1 {\n      margin: 0 5px;\n      font-size: 18px;\n      color: #dddddd; }\n    footer .copyrights p {\n      margin: 0; }\n  footer .signup {\n    order: 1;\n    border-bottom: 1px solid #393939;\n    padding: 10px 0;\n    display: flex;\n    align-items: center;\n    flex-flow: row wrap; }\n    @media screen and (min-width: 768px) {\n      footer .signup {\n        flex: 0 0 50%;\n        order: 2;\n        border-right: 1px solid #393939;\n        border-left: 1px solid #393939; } }\n    footer .signup .input-group {\n      position: relative; }\n      footer .signup .input-group input[type='text'] {\n        width: 90%;\n        max-width: 350px;\n        height: 30px;\n        padding: 10px 15px;\n        background: #393939;\n        color: #dddddd;\n        border: 1px solid #393939;\n        border-radius: 15px;\n        font-family: 'PT Serif', serif;\n        font-size: 12px; }\n        footer .signup .input-group input[type='text']:focus {\n          outline: none; }\n      footer .signup .input-group a {\n        display: inline-block;\n        width: 30px;\n        padding: 5px;\n        height: 30px;\n        right: 20px;\n        position: absolute;\n        background: transparent url(" + __webpack_require__(33) + ") center center no-repeat;\n        background-size: 12px 12px; }\n        @media screen and (min-width: 768px) {\n          footer .signup .input-group a {\n            position: relative;\n            top: 10px;\n            right: 35px; } }\n    footer .signup ul li > a {\n      color: #868686;\n      text-decoration: none;\n      display: inline-block;\n      padding: 0 15px;\n      font-size: 12px; }\n    footer .signup .input-group, footer .signup ul {\n      flex: 0 0 100%; }\n  footer .associations {\n    display: flex;\n    align-items: center;\n    flex-flow: row wrap;\n    order: 2; }\n    @media screen and (min-width: 768px) {\n      footer .associations {\n        order: 3;\n        flex: 0 0 25%; } }\n    footer .associations .social {\n      flex: 0 0 100%;\n      border-bottom: 1px solid #393939;\n      margin: 0 auto;\n      padding: 10px 0; }\n      footer .associations .social a {\n        display: inline-block;\n        margin: 0 12px;\n        width: 20px;\n        height: 20px; }\n        footer .associations .social a.facebook {\n          background: transparent url(" + __webpack_require__(14) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.facebook:hover {\n            background: transparent url(" + __webpack_require__(13) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.twitter {\n          background: transparent url(" + __webpack_require__(26) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.twitter:hover {\n            background: transparent url(" + __webpack_require__(25) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.instagram {\n          background: transparent url(" + __webpack_require__(16) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.instagram:hover {\n            background: transparent url(" + __webpack_require__(15) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.pinterest {\n          background: transparent url(" + __webpack_require__(23) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.pinterest:hover {\n            background: transparent url(" + __webpack_require__(22) + ") center center no-repeat;\n            background-size: contain; }\n    footer .associations .payments {\n      flex: 0 0 100%;\n      margin: 0 auto;\n      padding: 10px 0;\n      border-bottom: 1px solid #393939; }\n      @media screen and (min-width: 768px) {\n        footer .associations .payments {\n          border-bottom: none; } }\n      footer .associations .payments a {\n        display: inline-block;\n        margin: 0 5px;\n        width: 30px;\n        height: 30px; }\n        footer .associations .payments a.visa {\n          background: transparent url(" + __webpack_require__(29) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.visa:hover {\n            background: transparent url(" + __webpack_require__(28) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.paypal {\n          background: transparent url(" + __webpack_require__(21) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.paypal:hover {\n            background: transparent url(" + __webpack_require__(20) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.mastercard {\n          background: transparent url(" + __webpack_require__(18) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.mastercard:hover {\n            background: transparent url(" + __webpack_require__(17) + ") center center no-repeat;\n            background-size: contain; }\n  footer ul > li {\n    display: inline-block; }\n\n/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n", ""]);
+exports.push([module.i, "* {\n  box-sizing: border-box; }\n\nhtml, body {\n  height: 100%; }\n\nbody {\n  margin: 0;\n  padding: 0;\n  font: normal 16px/1.5 'Varela Round', sans-serif;\n  color: #222222; }\n\nul {\n  list-style: none;\n  padding: 0; }\n\n.main-container {\n  min-height: 100%; }\n\n/* nav styles */\nheader {\n  background: #ffffff;\n  height: 80px;\n  border-bottom: 1px solid #eeeeee;\n  position: relative;\n  z-index: 2; }\n  header .header-container {\n    height: inherit;\n    align-items: center;\n    padding: 0 15px; }\n  header .crumb {\n    display: inline-block;\n    width: 24px;\n    height: 24px;\n    margin-right: 15px; }\n    header .crumb.open {\n      background: transparent url(" + __webpack_require__(13) + ") center center no-repeat;\n      background-size: contain; }\n    header .crumb.close {\n      background: transparent url(" + __webpack_require__(22) + ") center center no-repeat;\n      background-size: contain; }\n  header .sidebar {\n    position: fixed;\n    top: 80px;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    background: #fafafa;\n    z-index: 1;\n    overflow: hidden; }\n  header nav {\n    display: flex;\n    flex-grow: 1;\n    margin-left: 15px; }\n    header nav a {\n      font-size: 14px;\n      display: inline-block;\n      text-decoration: none;\n      color: #222222;\n      margin: 0 15px;\n      position: relative; }\n      header nav a:after {\n        content: '';\n        display: inline-block;\n        width: 8px;\n        height: 8px;\n        background: transparent url(" + __webpack_require__(11) + ") center center no-repeat;\n        background-size: contain;\n        transform: rotate(180deg);\n        position: absolute;\n        top: 7px;\n        right: -15px; }\n  header .jumbo-nav {\n    position: absolute;\n    left: 0;\n    right: 0;\n    top: 80px;\n    background: #fafafa; }\n  header .icons {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    margin: 0;\n    padding: 10px 0;\n    background: #ffffff;\n    text-align: center; }\n    @media screen and (min-width: 768px) {\n      header .icons {\n        position: static;\n        text-align: left; } }\n    header .icons a {\n      display: inline-block;\n      text-decoration: none;\n      margin: 5px 20px 0;\n      width: 20px;\n      height: 20px; }\n      @media screen and (min-width: 768px) {\n        header .icons a {\n          margin: 5px 15px 0; } }\n      header .icons a.bag {\n        background: transparent url(" + __webpack_require__(10) + ") center center no-repeat;\n        background-size: contain;\n        position: relative; }\n        header .icons a.bag:after {\n          content: attr(data-count);\n          display: inline-block;\n          width: 18px;\n          height: 16px;\n          border-radius: 50%;\n          background: #1f4ba5;\n          color: #ffffff;\n          font-size: 10px;\n          position: absolute;\n          top: -10px;\n          right: -10px;\n          text-align: center;\n          padding-top: 2px; }\n      header .icons a.user {\n        background: transparent url(" + __webpack_require__(31) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.search {\n        background: transparent url(" + __webpack_require__(28) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.home {\n        background: transparent url(" + __webpack_require__(17) + ") center center no-repeat;\n        background-size: contain; }\n      header .icons a.category {\n        background: transparent url(" + __webpack_require__(12) + ") center center no-repeat;\n        background-size: contain; }\n  header ul > li {\n    display: inline-block; }\n\n#logo {\n  margin: 0 25px;\n  font: bold 22px 'PT Serif', serif; }\n  #logo > a {\n    color: #1f4ba5;\n    text-decoration: none;\n    font-size: 24px; }\n\n/*hero section styles*/\n.hero-section {\n  background: #eeeeee;\n  height: 500px; }\n  .hero-section .active-slide {\n    flex: 1 100%;\n    background: #555; }\n  .hero-section .slides-container {\n    display: none; }\n  @media screen and (min-width: 768px) {\n    .hero-section .active-slide {\n      flex: 0 0 80%;\n      height: 500px; }\n    .hero-section .slides-container {\n      display: block;\n      flex: 1 0 20%; }\n      .hero-section .slides-container .siderbar-item {\n        height: 125px;\n        background: #666; } }\n\n/*products section styles*/\n.product-card {\n  display: flex;\n  min-height: 250px;\n  flex: 0 0 50%;\n  flex-flow: column wrap;\n  justify-content: space-between;\n  border: 1px solid #eeeeee;\n  padding: 25px 25px;\n  border-top: none;\n  border-right: none;\n  cursor: pointer; }\n  .product-card:hover {\n    box-shadow: 0 5px 15px #eeeeee; }\n  @media screen and (min-width: 768px) {\n    .product-card {\n      flex: 0 0 33.33%;\n      min-height: 280px; }\n      .product-card:last-child {\n        border-right: 1px solid #eeeeee; } }\n  @media screen and (min-width: 992px) {\n    .product-card {\n      flex: 0 0 25%;\n      min-height: 300px; }\n      .product-card:nth-child(4n) {\n        border-right: 1px solid #eeeeee; } }\n  .product-card h1 {\n    font-size: 12px;\n    margin: 0; }\n    @media screen and (min-width: 768px) {\n      .product-card h1 {\n        font-size: 16px; } }\n  .product-card section {\n    position: relative; }\n  .product-card .product-img {\n    flex-grow: 4;\n    display: flex;\n    align-items: center; }\n    .product-card .product-img img {\n      height: 100px;\n      margin: 0 auto; }\n      @media screen and (min-width: 768px) {\n        .product-card .product-img img {\n          height: 120px; } }\n  .product-card .tag, .product-card .price {\n    font-family: 'Oswald', sans-serif;\n    font-weight: bold; }\n  .product-card .price.slashed {\n    position: absolute;\n    right: 0;\n    bottom: 3px;\n    font-size: 12px;\n    color: #868686;\n    text-decoration: line-through; }\n  .product-card .tag {\n    display: inline-block;\n    padding: 2px 5px;\n    border-radius: 3px;\n    position: relative;\n    font-size: 8px;\n    text-transform: uppercase;\n    position: absolute;\n    left: 0;\n    bottom: 5px;\n    color: #ffffff; }\n    @media screen and (min-width: 768px) {\n      .product-card .tag {\n        padding: 2px 10px;\n        font-size: 10px;\n        bottom: 3px; } }\n    .product-card .tag:after {\n      content: '';\n      display: inline-block;\n      width: 11px;\n      height: 12px;\n      transform: rotate(45deg);\n      position: absolute;\n      right: -5px;\n      top: 2px;\n      z-index: -1; }\n      @media screen and (min-width: 768px) {\n        .product-card .tag:after {\n          width: 13px;\n          height: 13px;\n          right: -6px;\n          top: 3px; } }\n    .product-card .tag.yellow, .product-card .tag.yellow:after {\n      background: #ffc12b; }\n    .product-card .tag.red, .product-card .tag.red:after {\n      background: #ff3f2b; }\n    .product-card .tag.green, .product-card .tag.green:after {\n      background: #68bf7b; }\n  .product-card.non-product {\n    cursor: auto; }\n    .product-card.non-product:hover {\n      box-shadow: none; }\n    .product-card.non-product span.diamond {\n      margin: 0 auto;\n      display: inline-block;\n      width: 24px;\n      height: 24px;\n      background: transparent url(" + __webpack_require__(14) + ") center center no-repeat;\n      background-size: contain; }\n    .product-card.non-product h1 {\n      font-family: 'Oswald', sans-serif;\n      font-weight: bold;\n      color: #1f4ba5;\n      font-size: 20px;\n      text-transform: uppercase; }\n    .product-card.non-product p {\n      font-size: 14px; }\n    @media screen and (min-width: 768px) {\n      .product-card.non-product h1 {\n        font-size: 36px; }\n      .product-card.non-product p {\n        font-size: 16px; } }\n\n/*brand section styles*/\n.brand-card {\n  display: flex;\n  height: 120px;\n  flex: 0 0 50%;\n  justify-content: flex-start;\n  align-items: center;\n  border: 1px solid #eeeeee;\n  border-top: none;\n  border-right: none;\n  cursor: pointer; }\n  .brand-card:hover {\n    box-shadow: 0 -1px 15px #eeeeee; }\n  .brand-card:last-child {\n    border-right: 1px solid #eeeeee; }\n  @media screen and (min-width: 768px) {\n    .brand-card {\n      flex: 0 0 25%; } }\n  @media screen and (min-width: 992px) {\n    .brand-card {\n      flex: 0 0 12.5%; } }\n  .brand-card img {\n    width: 60px;\n    margin: 0 auto; }\n  .brand-card.more {\n    position: relative; }\n    .brand-card.more:hover {\n      box-shadow: none; }\n    .brand-card.more span, .brand-card.more a {\n      display: inline-block;\n      font-family: 'Oswald', sans-serif;\n      font-weight: bold; }\n    .brand-card.more span {\n      width: 90%;\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      margin-left: -45%;\n      font-size: 62px;\n      margin-top: -27%;\n      opacity: 0.1;\n      z-index: -1; }\n    .brand-card.more a {\n      text-decoration: none;\n      font-size: 18px;\n      color: #1f4ba5;\n      margin: 0 auto; }\n\n/*footer styles*/\nfooter {\n  background: #222222;\n  color: #ffffff; }\n  footer .block {\n    padding: 0 15px; }\n  footer section {\n    display: flex;\n    flex: 1 100%;\n    flex-flow: row wrap;\n    align-items: center; }\n  footer .categories {\n    display: none; }\n    @media screen and (min-width: 768px) {\n      footer .categories {\n        display: block;\n        padding: 15px 0;\n        border-bottom: 1px solid #393939; }\n        footer .categories ul {\n          margin: 0 auto; }\n          footer .categories ul li > a {\n            text-decoration: none;\n            color: #dddddd;\n            font-size: 15px;\n            display: inline-block;\n            min-width: 120px;\n            padding: 0 15px;\n            position: relative;\n            text-align: center; }\n            footer .categories ul li > a:after {\n              content: '';\n              display: inline-block;\n              width: 5px;\n              height: 5px;\n              background: #393939;\n              border-radius: 50%;\n              position: absolute;\n              right: 0;\n              top: 11px; } }\n  footer .copyrights, footer .signup, footer .associations {\n    flex: 0 0 100%; }\n  footer .copyrights {\n    order: 3;\n    font-family: 'PT Serif', serif;\n    color: #535353;\n    font-size: 14px;\n    padding: 10px 0; }\n    @media screen and (min-width: 768px) {\n      footer .copyrights {\n        order: 1;\n        flex: 0 0 25%; } }\n    footer .copyrights h1 {\n      margin: 0 5px;\n      font-size: 18px;\n      color: #dddddd; }\n    footer .copyrights p {\n      margin: 0; }\n  footer .signup {\n    order: 1;\n    border-bottom: 1px solid #393939;\n    padding: 10px 0;\n    display: flex;\n    align-items: center;\n    flex-flow: row wrap; }\n    @media screen and (min-width: 768px) {\n      footer .signup {\n        flex: 0 0 50%;\n        order: 2;\n        border-right: 1px solid #393939;\n        border-left: 1px solid #393939; } }\n    footer .signup .input-group {\n      position: relative; }\n      footer .signup .input-group input[type='text'] {\n        width: 90%;\n        max-width: 350px;\n        height: 30px;\n        padding: 10px 15px;\n        background: #393939;\n        color: #dddddd;\n        border: 1px solid #393939;\n        border-radius: 15px;\n        font-family: 'PT Serif', serif;\n        font-size: 12px; }\n        footer .signup .input-group input[type='text']:focus {\n          outline: none; }\n      footer .signup .input-group a {\n        display: inline-block;\n        width: 30px;\n        padding: 5px;\n        height: 30px;\n        right: 20px;\n        position: absolute;\n        background: transparent url(" + __webpack_require__(23) + ") center center no-repeat;\n        background-size: 12px 12px; }\n        @media screen and (min-width: 768px) {\n          footer .signup .input-group a {\n            position: relative;\n            top: 10px;\n            right: 35px; } }\n    footer .signup ul li > a {\n      color: #868686;\n      text-decoration: none;\n      display: inline-block;\n      padding: 0 15px;\n      font-size: 12px; }\n    footer .signup .input-group, footer .signup ul {\n      flex: 0 0 100%; }\n  footer .associations {\n    display: flex;\n    align-items: center;\n    flex-flow: row wrap;\n    order: 2; }\n    @media screen and (min-width: 768px) {\n      footer .associations {\n        order: 3;\n        flex: 0 0 25%; } }\n    footer .associations .social {\n      flex: 0 0 100%;\n      border-bottom: 1px solid #393939;\n      margin: 0 auto;\n      padding: 10px 0; }\n      footer .associations .social a {\n        display: inline-block;\n        margin: 0 12px;\n        width: 20px;\n        height: 20px; }\n        footer .associations .social a.facebook {\n          background: transparent url(" + __webpack_require__(16) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.facebook:hover {\n            background: transparent url(" + __webpack_require__(15) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.twitter {\n          background: transparent url(" + __webpack_require__(30) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.twitter:hover {\n            background: transparent url(" + __webpack_require__(29) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.instagram {\n          background: transparent url(" + __webpack_require__(19) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.instagram:hover {\n            background: transparent url(" + __webpack_require__(18) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .social a.pinterest {\n          background: transparent url(" + __webpack_require__(27) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .social a.pinterest:hover {\n            background: transparent url(" + __webpack_require__(26) + ") center center no-repeat;\n            background-size: contain; }\n    footer .associations .payments {\n      flex: 0 0 100%;\n      margin: 0 auto;\n      padding: 10px 0;\n      border-bottom: 1px solid #393939; }\n      @media screen and (min-width: 768px) {\n        footer .associations .payments {\n          border-bottom: none; } }\n      footer .associations .payments a {\n        display: inline-block;\n        margin: 0 5px;\n        width: 30px;\n        height: 30px; }\n        footer .associations .payments a.visa {\n          background: transparent url(" + __webpack_require__(33) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.visa:hover {\n            background: transparent url(" + __webpack_require__(32) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.paypal {\n          background: transparent url(" + __webpack_require__(25) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.paypal:hover {\n            background: transparent url(" + __webpack_require__(24) + ") center center no-repeat;\n            background-size: contain; }\n        footer .associations .payments a.mastercard {\n          background: transparent url(" + __webpack_require__(21) + ") center center no-repeat;\n          background-size: contain; }\n          footer .associations .payments a.mastercard:hover {\n            background: transparent url(" + __webpack_require__(20) + ") center center no-repeat;\n            background-size: contain; }\n  footer ul > li {\n    display: inline-block; }\n\n/*block style*/\n.block {\n  display: flex;\n  flex-wrap: wrap;\n  max-width: 1200px;\n  margin: 0 auto; }\n\n.text-center {\n  text-align: center; }\n\n.img-responsive {\n  max-width: 100%;\n  max-height: 100%; }\n\n.visible-xs {\n  display: none; }\n\n@media screen and (max-width: 420px) {\n  .hidden-xs {\n    display: none; }\n  .visible-xs {\n    display: inline-block; } }\n", ""]);
 
 // exports
 
@@ -1630,112 +1630,136 @@ module.exports = __webpack_require__.p + "37a2396077b8e482432d50f8a73acd15.png";
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "c8f54db5f3fa80a801bdbf8b5d4347e4.png";
+module.exports = __webpack_require__.p + "4237fc2f2e234a2d6c7e50ef4f6460a3.png";
 
 /***/ }),
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "4793d2d8fbc68fa4f77fba1225f4cf8d.png";
+module.exports = __webpack_require__.p + "c8f54db5f3fa80a801bdbf8b5d4347e4.png";
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ccadeb74f8b0a6d691cd272dac6238cf.png";
+module.exports = __webpack_require__.p + "fb04c2f1007b1144aacc4f9d62554c9a.png";
 
 /***/ }),
 /* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "736fee12fc3b6d440d580b65107acbff.png";
+module.exports = __webpack_require__.p + "4793d2d8fbc68fa4f77fba1225f4cf8d.png";
 
 /***/ }),
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "357de388228155434a9543bd546b0dfa.png";
+module.exports = __webpack_require__.p + "ccadeb74f8b0a6d691cd272dac6238cf.png";
 
 /***/ }),
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "0f15cd3369eb4e4233369dbc70e976e9.png";
+module.exports = __webpack_require__.p + "3b18e87328f5f25d98645ecc80446fa6.png";
 
 /***/ }),
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e664e3fff88f17252f4fbd22f013cfef.png";
+module.exports = __webpack_require__.p + "736fee12fc3b6d440d580b65107acbff.png";
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f30925571c049db64736a579a01b913b.png";
+module.exports = __webpack_require__.p + "357de388228155434a9543bd546b0dfa.png";
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d27be8c746e08e6bbd2ce4b5fb664c36.png";
+module.exports = __webpack_require__.p + "0f15cd3369eb4e4233369dbc70e976e9.png";
 
 /***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "4d91713d9a13e81275df41ff463f21ee.png";
+module.exports = __webpack_require__.p + "e664e3fff88f17252f4fbd22f013cfef.png";
 
 /***/ }),
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "a95679e8a4ccc0d49b311719e40fcd0b.png";
+module.exports = __webpack_require__.p + "f30925571c049db64736a579a01b913b.png";
 
 /***/ }),
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bff25dee5761353d8b5127f256bf3f77.png";
+module.exports = __webpack_require__.p + "1adb10a2d896e12d4fe834788eedfdcd.png";
 
 /***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "b9c62aaa9b2ba14d66b02616ba429146.png";
+module.exports = __webpack_require__.p + "d27be8c746e08e6bbd2ce4b5fb664c36.png";
 
 /***/ }),
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bdb62347cade4663865ed7d8f61ac1b1.png";
+module.exports = __webpack_require__.p + "4d91713d9a13e81275df41ff463f21ee.png";
 
 /***/ }),
 /* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "be739bd8b4597309a4b9066018f4d27b.png";
+module.exports = __webpack_require__.p + "a95679e8a4ccc0d49b311719e40fcd0b.png";
 
 /***/ }),
 /* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f66826c17d334c3134c6d30a54a6e42f.png";
+module.exports = __webpack_require__.p + "bff25dee5761353d8b5127f256bf3f77.png";
 
 /***/ }),
 /* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "b8d56690ed0e868f3b25128b67e7622d.png";
+module.exports = __webpack_require__.p + "b9c62aaa9b2ba14d66b02616ba429146.png";
 
 /***/ }),
 /* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f6682c8d34c3b6a099fce0dbc2ab2528.png";
+module.exports = __webpack_require__.p + "bdb62347cade4663865ed7d8f61ac1b1.png";
 
 /***/ }),
 /* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "be739bd8b4597309a4b9066018f4d27b.png";
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f66826c17d334c3134c6d30a54a6e42f.png";
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b8d56690ed0e868f3b25128b67e7622d.png";
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f6682c8d34c3b6a099fce0dbc2ab2528.png";
+
+/***/ }),
+/* 34 */
 /***/ (function(module, exports) {
 
 /*
@@ -1987,7 +2011,7 @@ function updateLink(linkElement, obj) {
 
 
 /***/ }),
-/* 31 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -1996,7 +2020,7 @@ function updateLink(linkElement, obj) {
 var content = __webpack_require__(8);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(30)(content, {});
+var update = __webpack_require__(34)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -2013,7 +2037,7 @@ if(false) {
 }
 
 /***/ }),
-/* 32 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2028,30 +2052,6 @@ var _BuyBlue2 = _interopRequireDefault(_BuyBlue);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _preact.render)((0, _preact.h)(_BuyBlue2.default, null), document.getElementById('main'));
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "1adb10a2d896e12d4fe834788eedfdcd.png";
-
-/***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "4237fc2f2e234a2d6c7e50ef4f6460a3.png";
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "3b18e87328f5f25d98645ecc80446fa6.png";
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "fb04c2f1007b1144aacc4f9d62554c9a.png";
 
 /***/ })
 /******/ ]);
