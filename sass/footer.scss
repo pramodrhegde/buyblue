@@ -1,0 +1,278 @@
+@import 'common';
+
+/*footer styles*/
+footer {
+  background: $body-color;
+  color: $white;
+
+  .block {
+    padding: 0 15px;
+  }
+  section {
+    display: flex;
+    flex: 1 100%;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .categories {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+      padding: 15px 0;
+      border-bottom: 1px solid $footer-black;
+      ul {
+        margin: 0 auto;
+        li > a {
+          color: $footer-white;
+          font-size: 15px;
+          display: inline-block;
+          min-width: 120px;
+          padding: 0 15px;
+          position: relative;
+          text-align: center;
+          &:after {
+            content: '';
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            background: $footer-black;
+            border-radius: 50%;
+            position: absolute;
+            right: 0;
+            top: 11px;
+          }
+
+          &:hover {
+            color: lighten($footer-white, 10%);
+            &:after {
+              background: lighten($footer-black, 10%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .copyrights, .signup, .associations {
+    flex: 0 0 100%;
+  }
+
+  .copyrights {
+    order: 3;
+    font-family: $font-stack-ptserif;
+    color: $body-color-md;
+    font-size: 14px;
+    padding: 10px 0;
+
+    @media screen and (min-width: 768px) {
+      order: 1;
+      flex: 0 0 25%;
+    }
+
+    h1 {
+      margin: 0 5px;
+      font-size: 18px;
+      color: $footer-white;
+    }
+    p {
+      margin: 0;
+    }
+  }
+
+  .signup {
+    order: 1;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+
+    @media screen and (min-width: 768px) {
+      flex: 0 0 50%;
+      order: 2;
+      border-right: 1px solid $footer-black;
+      border-left: 1px solid $footer-black;
+    }
+
+    .input-group {
+      position: relative;
+
+      span.mail {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: transparent url('../assets/mail.png') center center no-repeat;
+        background-size: 16px 16px;
+
+        top: 1px;
+        position: absolute;
+        left: 20px;
+        @media screen and (min-width: 768px) {
+          top: 12px;
+          position: relative;
+          left: 35px;
+        }
+      }
+      input[type='text'] {
+        width: 90%;
+        max-width: 350px;
+        height: 30px;
+        padding: 10px 15px;
+        background: $footer-black;
+        color: $footer-white;
+        border: 1px solid $footer-black;
+        border-radius: 15px;
+        font-family: 'PT Serif', serif;
+        font-size: 12px;
+        padding-left: 40px;
+        &:focus {
+          outline: none;
+          background: lighten($footer-black, 3%);
+        }
+      }
+      a {
+        display: inline-block;
+        width: 30px;
+        padding: 5px;
+        height: 30px;
+        right: 20px;
+        position: absolute;
+        background: transparent url('../assets/next.png') center center no-repeat;
+        background-size: 12px 12px;
+
+        @media screen and (min-width: 768px) {
+          position: relative;
+          top: 10px;
+          right: 35px;
+        }
+      }
+    }
+
+    ul {
+      li > a {
+        color: $body-color-lt;
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 12px;
+        transition: $bazier-curve;
+        &:hover {
+          color: lighten($body-color-lt, 10%);
+        }
+      }
+    }
+
+    .input-group, ul {
+      flex: 0 0 100%;
+    }
+  }
+
+  .associations {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    order: 2;
+
+    @media screen and (min-width: 768px) {
+      order: 3;
+      flex: 0 0 25%;
+    }
+
+    .social{
+      flex: 0 0 100%;
+      border-bottom: 1px solid $footer-black;
+      margin: 0 auto;
+      padding: 10px 0;
+      a {
+        display: inline-block;
+        margin: 0 12px;
+        width: 20px;
+        height: 20px;
+        transition: $bazier-curve;
+        &.facebook {
+          background: transparent url('../assets/facebook.png') center center no-repeat;
+          background-size: contain;
+          &:hover {
+            background: transparent url('../assets/facebook-h.png') center center no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.twitter {
+          background: transparent url('../assets/twitter.png') center center no-repeat;
+          background-size: contain;
+          &:hover {
+            background: transparent url('../assets/twitter-h.png') center center no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.instagram {
+          background: transparent url('../assets/insta.png') center center no-repeat;
+          background-size: contain;
+          &:hover {
+            background: transparent url('../assets/insta-h.png') center center no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.pinterest {
+          background: transparent url('../assets/pinterest.png') center center no-repeat;
+          background-size: contain;
+          &:hover {
+            background: transparent url('../assets/pinterest-h.png') center center no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+    }
+
+    .payments {
+      flex: 0 0 100%;
+      margin: 0 auto;
+      padding: 10px 0;
+      border-bottom: 1px solid $footer-black;
+      @media screen and (min-width: 768px) {
+        border-bottom: none;
+      }
+
+      a {
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        transition: $bazier-curve;
+        &.visa {
+          background: transparent url('../assets/visa.png') center center no-repeat;
+          background-size: contain;
+          &:hover {
+            background: transparent url('../assets/visa-h.png') center center no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.paypal {
+          background: transparent url('../assets/paypal.png') center center no-repeat;
+          background-size: contain;
+          &:hover {
+            background: transparent url('../assets/paypal-h.png') center center no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.mastercard {
+          background: transparent url('../assets/mastercard.png') center center no-repeat;
+          background-size: contain;
+          &:hover {
+            background: transparent url('../assets/mastercard-h.png') center center no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+    }
+  }
+
+  ul > li {
+    display: inline-block;
+  }
+}

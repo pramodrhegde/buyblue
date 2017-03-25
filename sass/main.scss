@@ -1,0 +1,30 @@
+@import 'common';
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 16px/1.5 $font-stack-varela;
+  color: $body-color;
+}
+
+.main-container {
+  min-height: 100%;
+}
